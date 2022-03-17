@@ -1,11 +1,11 @@
 ---
 lab:
-    title: '12 - Azure AD の Multi-Factor Authentication を有効にする'
+    title: '14 - Azure AD の Multi-Factor Authentication を有効にする'
     learning path: '02'
     module: 'モジュール 01 - Azure Multi-Factor Authentication の計画と管理を行う'
 ---
 
-# ラボ 12 - Azure AD の Multi-Factor Authentication を有効にする
+# ラボ 14 - Azure AD の Multi-Factor Authentication を有効にする
 
 ## ラボ シナリオ
 
