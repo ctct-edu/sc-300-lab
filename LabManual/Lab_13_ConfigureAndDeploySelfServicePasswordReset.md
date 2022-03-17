@@ -5,7 +5,7 @@ lab:
     module: 'モジュール 02 - ユーザー認証を管理する'
 ---
 
-# ラボ 13 - セルフサービス パスワード リセットを構成してデプロイする
+# ラボ 13 - セルフサービス パスワード リセットを構成する
 ## ラボ シナリオ
 
 会社は従業員に権限を与え、セルフサービスによるパスワードのリセットを可能にすることを決定しました。組織内でこの設定を構成する必要があります。
@@ -33,6 +33,8 @@ lab:
     | メンバー| **Alex Wilber** |
     | | **Allan Deyoung** |
     | | **Bianca Pisani** |
+
+
 
 ### タスク 2 - テスト グループの SSPR を有効にする
 
@@ -66,9 +68,9 @@ lab:
 
 
 
-### タスク 3 - 管理者がBiancaの電話番号を登録する
+### タスク 4 - 管理者がBiancaの電話番号を登録する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`AlexW@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの**「ユーザー」**を選択し、さらに**「Bianca Pisani」**を選択します。
 
@@ -82,7 +84,7 @@ lab:
 
 
 
-### タスク 4 - SSPR をテストする
+### タスク 5 - SSPR をテストする
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
@@ -112,7 +114,7 @@ lab:
 
      
 
-### タスク 5 - SSPRTesters グループに属していないユーザーを検証する
+### タスク 6 - SSPRTesters グループに属していないユーザーを検証する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 

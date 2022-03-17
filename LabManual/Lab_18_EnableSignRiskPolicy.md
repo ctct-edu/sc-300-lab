@@ -13,17 +13,15 @@ lab:
 
 #### 推定時間: 10 分
 
-## ユーザー リスク ポリシーを有効にする
+## タスク 1 - ユーザー リスク ポリシーを有効にする
 
-1. グローバル管理者アカウントを使用して、[https://portal.azure.com]( https://portal.azure.com) にサインインします。
+1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
-1. ポータル メニューを開き、**「Azure Active Directory」** を選択します。
+1. 左側のナビゲーション メニューの**「セキュリティ」**をクリックします。
 
-1. 「Azure Active Directory」 ブレードで、**「管理」** の下にある **「セキュリティ」** を選択します。
+1. **「セキュリティ | はじめに」**ブレードで **「Identity Protection」** を選択します。
 
-1. 「セキュリティ」ブレードの左側のナビゲーションで **「Identity Protection」** を選択します。
-
-1. 「ID 保護」ブレードの左側のナビゲーションで、**「ユーザー リスク ポリシー」** を選択します。
+1. **「Identity Protection | 概要」**ブレードの左側のナビゲーションで、**「ユーザー リスク ポリシー」** を選択します。
 
     ![「ユーザー リスク ポリシー」ページと強調表示された参照パスを表示する画面イメージ](./media/lp2-mod4-browse-to-identity-protection.png)
 
@@ -47,7 +45,9 @@ lab:
 
 1. **「ポリシーを適用する」** で、**「オン」** を選択してから **「保存」** を選択します。
 
-## サインイン リスク ポリシーを有効にする
+     
+
+## タスク 2 - サインイン リスク ポリシーを有効にする
 
 1. 「ID 保護」ブレードの左側のナビゲーションで、**「サインイン リスク ポリシー」** を選択します。
 

@@ -15,7 +15,9 @@ lab:
 
 #### 推定時間: 5 分
 
-## グループ ライセンス割り当てを変更する
+## 演習 1 - Microsoft36グループ ライセンス割り当てを変更する
+
+### タスク1 - グループ ライセンス割り当てを変更する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 1. 左側のナビゲーション メニューの**「グループ」** を選択します。
@@ -26,6 +28,17 @@ lab:
 1. **「ライセンスオプションの確認」**は**「Office365 E3」**を選択し、**「保存」**をクリックします。
 1. 完了したら、**「保存」** を選択します。
 1. グループの**「ライセンス」**ページで、**「Office365 E3」**が追加されたことを確認します。
+
+
+
+## タスク2 - 割り当てられたライセンスを確認する
+
+> 注:このタスクはスキップしてもOKです。
+
+1. 新しい InPrivate ブラウザー ウィンドウを開きます。
+2. [https://www.office.com](https://www.office.com) に`AlexW@ctcXXXX.onmicrosoft.com`でサインインします。
+3. Office365が使用できることを確認します。
+4. ブラウザー ウィンドウを閉じます。
 
 
 
