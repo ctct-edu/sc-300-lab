@@ -78,8 +78,6 @@ Azure Active Directory 条件付きアクセス ポリシーをデプロイす�
 
 ## タスク 3 - 条件付きアクセス ポリシーをテストする
 
-条件付きアクセス ポリシーをテストして、想定どおりに動作することを確認する必要があります。
-
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
 2. [https://www.office.com](https://www.office.com) に`DebraB@ctcXXXX.onmicrosoft.com`でサインインします。
