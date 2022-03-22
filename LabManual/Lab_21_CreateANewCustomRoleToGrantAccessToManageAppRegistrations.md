@@ -19,36 +19,36 @@ lab:
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
-2. 左側のナビゲーション メニューの **「ロールと管理者」** をクリックします。
+2. 左側のナビゲーション メニューの 「ロールと管理者」 をクリックします。
 
-4. **「ロールと管理者」**ブレードで、メニューから **「+新しいカスタム ロール」** をクリックします。
+4. 「ロールと管理者」ブレードで、メニューから 「+新しいカスタム ロール」 をクリックします。
 
     ![「新しいカスタム ロール」メニュー オプションが強調表示されている「ロールと管理者」ブレードを表示している画面イメージ](./media/lp3-mod1-new-custom-role.png)
 
-4.  **「新しいカスタム ロール」**ブレードの**「基本」**タブで、次の情報を使用し「**次へ**」をクリックします。
+4.  「新しいカスタム ロール」ブレードの「基本」タブで、次の情報を使用し「次へ」をクリックします。
 
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
    
-   | **設定** | **値**                 |
-   | :------- | ---------------------- |
-   | 名前     | **My Custom App Role** |
+   | 設定 | 値                 |
+   | :--- | ------------------ |
+   | 名前 | My Custom App Role |
    
-4. **「新しいカスタム ロール」**ブレードの**「アクセス許可」**タブで、次の情報を使用し「**次へ**」をクリックします。
+4. 「新しいカスタム ロール」ブレードの「アクセス許可」タブで、次の情報を使用し「次へ」をクリックします。
 
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
    
    > 注:指定された2つの権限に☑を入れてください。
    
-   | **設定** | **値**                                                       |
-   | :------- | ------------------------------------------------------------ |
-   | 権限     | **microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials** |
-   |          | **microsoft.directory/servicePrincipals/synchronizationCredentials/manage** |
+   | 設定 | 値                                                           |
+   | :--- | ------------------------------------------------------------ |
+   | 権限 | microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials |
+   |      | microsoft.directory/servicePrincipals/synchronizationCredentials/manage |
    
    ![検索、アクセス許可の管理、「次へ」が強調表示された「新しいカスタム ロールのアクセス許可」タブを表示している画面イメージ](./media/lp3-mod1-custom-role-permissions.png)
    
-6. **「新しいカスタム ロール」**ブレードの**「確認と作成」**タブで「**作成**」をクリックします。
+6. 「新しいカスタム ロール」ブレードの「確認と作成」タブで「作成」をクリックします。
 
-7. **「Contosoマーケティング | ロールと管理者」**ブレードにリダイレクトされます。一覧に**「My Custom App Role」**があることを確認してください。
+7. 「Contosoマーケティング | ロールと管理者」ブレードにリダイレクトされます。一覧に「My Custom App Role」があることを確認してください。
 
 
 
