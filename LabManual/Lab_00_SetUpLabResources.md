@@ -98,14 +98,13 @@ lab:
     AlexW@ctcXXXX.onmicrosoft.com,Alex,Wilber,Alex Wilber,,,,,,,,,,,,united states
     AllanD@ctcXXXX.onmicrosoft.com,Allan,Deyoung,Allan Deyoung,,,,,,,,,,,,united states
     BiancaP@ctcXXXX.onmicrosoft.com,Bianca,Pisani,Bianca Pisani,,,,,,,,,,,,united states
-    ChrisG@ctcXXXX.onmicrosoft.com,Chris,Green,Chris Green,,,,,,,,,,,,united states
     DebraB@ctcXXXX.onmicrosoft.com,Debra,Berger,Debra Berger,,,,,,,,,,,,united states
     DeliaD@ctcXXXX.onmicrosoft.com,Delia,Dennis,Delia Dennis,,,,,,,,,,,,united states
     GradyA@ctcXXXX.onmicrosoft.com,Grady,Archie,Grady Archie,,,,,,,,,,,,united states
     MiriamG@ctcXXXX.onmicrosoft.com,Miriam,Graham,Miriam Graham,,,,,,,,,,,,united states
     RaulR@ctcXXXX.onmicrosoft.com,Raul,Razo,Raul Razo,,,,,,,,,,,,united states
     ```
-
+    
 17. 作成したCSVをアップロードし、「次へ」をクリックします。
 
     ![lp0-06](./media/lp0-06.png)
@@ -114,9 +113,9 @@ lab:
 
     > 注:演習では、ライセンスを付与する手順を実施します。そのため今はライセンス付与する必要はありません。
 
-19. 10人のユーザーが登録されたことを確認し、「ユーザーの追加」をクリックします。
+19. 9人のユーザーが登録されたことを確認し、「ユーザーの追加」をクリックします。
 
-20. 「10‎ユーザーを追加しました」と表示されます。「閉じる」をクリックします。
+20. 「9ユーザーを追加しました」と表示されます。「閉じる」をクリックします。
 
 21. 「アクティブなユーザー」画面で、自ユーザー(ctcXXXX)を除く、全てのユーザーを選択します。
 
