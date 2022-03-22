@@ -9,48 +9,57 @@ lab:
 
 ## ラボ シナリオ
 
-最近では、他社との提携が行われています。当面は、パートナー企業の従業員がゲストとして追加されます。複数のゲスト ユーザーを一度にインポートできるようにする必要があります。
+最近では、他社との提携が行われています。当面は、パートナー企業の従業員がゲストとして追加されます。
+
+複数のゲスト ユーザーを一度にインポートできるようにする必要があります。
 
 #### 推定時間: 10 分
 
-## ゲスト ユーザーを一括招待する
+## 演習 1 - ゲスト ユーザーを一括招待する
 
-1. [https://portal.azure.com](https://portal.azure.com) にグローバル管理者としてサインインします。
+1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
-1. 左側のナビゲーション ウィンドウから、**「Azure Active Directory」** を選択します。
-
-1. **「管理」** から、**「ユーザー」** を選択します。
+1. 左側のナビゲーション メニューの**「ユーザー」** を選択します。
 
 1. 「ユーザー」ブレードのメニューで、**「一括操作」 > 「一括招待」** を選択します。
 
      ![「一括操作」と「一括招待」のメニュー オプションが強調表示された「すべてのユーザー」ページを表示する画面イメージ](./media/lp1-mod3-bulk-invite-option.png)
 
-1. 「ユーザー一括招待」ウィンドウで、招待プロパティを持つサンプル CSV テンプレートへの **「ダウンロード」** を選択します。
+1. **「ユーザー一括招待」**ウィンドウで、招待プロパティを持つサンプル CSV テンプレートへの **「ダウンロード」** を選択します。
 
-1. エディターを使用して CSV ファイルを表示し、テンプレートを確認します。
+1. メモ帳などのエディターなどを使用して CSV ファイルを表示します。
 
-1. この .csv テンプレートを開いて、ゲスト ユーザーごとに 1 行追加します。必要な値は次のとおりです。
+1. 次の情報を入力し、ファイルを保存します。
 
-    - **招待するメール アドレス** - 招待が送信されるユーザー
+    > 注:メールアドレスはダミーです。実在しません。
 
-    - **リダイレクト URL** - 招待されたユーザーが招待を承認した後に転送される URL。
+    ```
+    version:v1.0
+    招待するメール アドレス [inviteeEmail] 必須,リダイレクト URL [inviteRedirectURL] 必須,招待メッセージの送信 (true または false) [sendEmail],カスタマイズされた招待メッセージ [customizedMessageBody]
+    Example: Istokes@fabrikam.com, https://myapplications.microsoft.com, TRUE, Welcome to the Contoso organization!
+    ctctedu-guest01@ctctedu.com, https://myapplications.microsoft.com, TRUE, Welcome to the Contoso organization!
+    ctctedu-guest02@ctctedu.com, https://myapplications.microsoft.com, TRUE, Welcome to the Contoso organization!
+    ctctedu-guest03@ctctedu.com, https://myapplications.microsoft.com, TRUE, Welcome to the Contoso organization!
+    ctctedu-guest04@ctctedu.com, https://myapplications.microsoft.com, TRUE, Welcome to the Contoso organization!
+    ctctedu-guest05@ctctedu.com, https://myapplications.microsoft.com, TRUE, Welcome to the Contoso organization!
+    ```
 
-    ![ゲスト一括招待のテンプレート CSV の例を表示する画面イメージ](./media/lp1-mod3-template-csv.png)
+1. **「ユーザー一括招待」**ページの **「CSV ファイルをアップロード」** で、編集したデータを選択します。
 
-1. ファイルを保存します。
+1. **「送信」**をクリックし、一覧に登録したゲストユーザーが表示されることを確認します。
 
-1. 「ユーザー一括招待」ページの **「CSV ファイルをアップロード」** で、そのファイルを参照します。
+    > 注:送信後に「完了した」などの通知はありません。送信後すぐに一覧を更新してください。
 
-ファイルを選択すると、.csv ファイルの検証が開始されます。
+1. 左側のナビゲーション メニューの「一括操作の結果」をクリックします。操作ログが確認できます。![一括操作の結果を表示する画面イメージ](./media/lp1-mod3-bulk-operations-results.png)
 
-1. ファイルの内容が検証された後、**「ファイルが正常にアップロードされました」** と表示されます。エラーが存在する場合は、ジョブを送信する前にそれらを修正する必要があります。
 
-    ![「ファイルが正常にアップロードされました」というメッセージが強調表示された「ユーザー一括招待」を表示する画面イメージ](./media/lp1-mod3-bulk-invite-users-upload-csv.png)
 
-1. ファイルが検証に合格したら、**「送信」** を選択して、招待を追加する Azure の一括操作を開始します。
+この演習では、ゲストユーザーをCSVファイルを用いて一括招待する手順を実施しました。
 
-1. ジョブの状態を表示するには、**「各操作の状態を表示するには、ここをクリックします」** を選択します。または、「アクティビティ」セクションの **「一括操作**」を選択します。一括操作に含まれる各行の項目の詳細については、**「成功数」**、**「失敗数」**、**「合計要求数」** 列の値を選択してください。エラーが発生した場合、その理由が表示されます。
+> 参考:CSVで指定する必須項目
+>
+> - **招待するメール アドレス** - 招待が送信されるユーザーのメールアドレス
+>
+> - **リダイレクト URL** - 招待されたユーザーが招待を承認した後に転送される URL
+>
 
-    ![一括操作の結果を表示する画面イメージ](./media/lp1-mod3-bulk-operations-results.png)
-
-1. ジョブが完了すると、一括操作が成功したという通知が表示されます。
