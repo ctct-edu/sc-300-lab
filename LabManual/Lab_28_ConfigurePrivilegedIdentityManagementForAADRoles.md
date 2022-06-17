@@ -13,7 +13,7 @@ lab:
 
 #### 推定時間: 15 分
 
-## タスク 1 - Azure AD ロールの設定を構成する
+### タスク 1 - Azure AD ロールの設定を構成する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 

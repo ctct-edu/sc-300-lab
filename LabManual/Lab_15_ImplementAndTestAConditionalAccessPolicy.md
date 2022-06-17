@@ -15,9 +15,7 @@ Azure Active Directory 条件付きアクセス ポリシーをデプロイす�
 
 #### 推定時間: 12 分
 
-## 演習 1 - DebraB が Office.com のアクセスをブロックする条件付きアクセス ポリシーを設定する
-
-### タスク 1 - DebraB が Office.com にアクセスできることを確認する
+### タスク 1 - Debra Berger が Office.com にアクセスできることを確認する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
@@ -29,7 +27,7 @@ Azure Active Directory 条件付きアクセス ポリシーをデプロイす�
 
     
 
-## タスク 2 - 条件付きアクセスポリシーを作成する
+### タスク 2 - 条件付きアクセスポリシーを作成する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -76,7 +74,7 @@ Azure Active Directory 条件付きアクセス ポリシーをデプロイす�
 
     
 
-## タスク 3 - 条件付きアクセス ポリシーをテストする
+### タスク 3 - 条件付きアクセス ポリシーをテストする
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
@@ -88,7 +86,7 @@ Azure Active Directory 条件付きアクセス ポリシーをデプロイす�
 
      
 
-## タスク 4 - 作成した条件付きアクセスポリシーをオフにする
+### タスク 4 - 作成した条件付きアクセスポリシーをオフにする
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 2. 左側のナビゲーション メニューの「セキュリティ」をクリックします。

@@ -13,15 +13,13 @@ lab:
 
 #### 推定時間: 10 分
 
-## 演習1 - すべてのユーザーをメンバーとして持つ動的グループを作成する
-
 ### タスク 1 - 動的グループを作成する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「グループ」 を選択し、「新しいグループ」 を選択します。
 
-3. 次の情報を使用し「作成」をクリックします。
+3. 次の情報を入力します。
 
     > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 

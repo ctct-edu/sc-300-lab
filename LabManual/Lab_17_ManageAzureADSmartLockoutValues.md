@@ -14,7 +14,7 @@ lab:
 #### 推定時間: 5 分
 
 
-## タスク 1 - Azure AD スマート ロックアウトの値を管理する
+### タスク 1 - Azure AD スマート ロックアウトの値を管理する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -37,7 +37,7 @@ lab:
 
 
 
-## タスク 2 - Grady で スマート ロックアウトを検証する
+### タスク 2 - Grady で スマート ロックアウトを検証する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 1. [Azure Portal]( https://portal.azure.com/) に`GradyA@ctcXXXX.onmicrosoft.com`でサインイン時に3回以上パスワード認証を失敗します。
@@ -45,11 +45,13 @@ lab:
 
 
 
-## タスク 3 - Azure AD スマート ロックアウトの値を再変更する
+### タスク 3 - Azure AD スマート ロックアウトの値を再変更する
 
-> 注:この手順は必須ではないですが、以降の演習で影響を及ぼす可能性もあります。
+> 注:この手順は必須ではありません。
+
+> 注:設定した場合、以降の演習で影響を及ぼす可能性があるため、 検証後は再度設定値を緩くすることをお勧めします。
 >
-> 　 設定値を緩くすることをお勧めします。 (例えば、adminのパスワードを３回失敗すると180秒、演習を実施することが出来ません。)
+> 　 (例えば、adminのパスワードを３回失敗すると180秒、演習を実施することが出来ません。)
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 

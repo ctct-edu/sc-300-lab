@@ -19,7 +19,7 @@ RBAC を使用するとき、管理者は個々のユーザーまたはグルー
 
 #### 推定時間: 10 分
 
-## タスク 1 - アプリ ロール UI を使用してアプリ ロールを宣言する
+### タスク 1 - アプリ ロール UI を使用してアプリ ロールを宣言する
 
 Azure portal のユーザー インターフェイスを使用してアプリ ロールを作成するには、次のようにします。
 
@@ -51,7 +51,7 @@ Azure portal のユーザー インターフェイスを使用してアプリ �
 
     
 
-## タスク 2 - ロールにユーザーとグループを割り当てる
+### タスク 2 - ロールにユーザーとグループを割り当てる
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -71,7 +71,7 @@ Azure portal のユーザー インターフェイスを使用してアプリ �
 
    
 
-## タスク 3 - Graph Explorer を使用して、Gredy に割り当てられたロールを確認する
+### タスク 3 - Graph Explorer を使用して、Gredy に割り当てられたロールを確認する
 
 1. [Microsoft Graph Exploer](https://developer.microsoft.com/ja-jp/graph/graph-explorer)にアクセスします。
 

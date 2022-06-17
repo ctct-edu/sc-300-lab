@@ -15,7 +15,7 @@ lab:
 
 #### 推定時間: 5 分
 
-## タスク 1 - Azure AD テナントにアプリを追加する
+### タスク 1 - Azure AD テナントにアプリを追加する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -37,7 +37,7 @@ lab:
 
     
 
-## タスク 2 - アプリにユーザーを割り当てる
+### タスク 2 - アプリにユーザーを割り当てる
 
 1. 「GitHub Enterprise Cloud - Enterprise Account | 概要」ブレードの 「ユーザーとグループ」 をクリックします。
 
@@ -51,7 +51,7 @@ lab:
 
 
 
-## タスク 3 - 割り当てられたアプリを確認する
+### タスク 3 - 割り当てられたアプリを確認する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 

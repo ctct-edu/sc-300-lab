@@ -13,7 +13,7 @@ lab:
 
 #### 推定時間: 10 分
 
-## 演習1 - 条件付きアクセスポリシーが設定できるか確認をする
+### タスク 1 - セキュリティ規定値群が有効化された状態で条件付きアクセスポリシーが設定できるか確認する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -33,7 +33,7 @@ lab:
 
 
 
-## 演習2 - セキュリティの既定値群を無効化する
+### タスク 1 - セキュリティ規定値群を無効化する
 
 1. 「Contosoマーケティング | 概要」ブレードの左側のナビゲーションにある「プロパティ」 を選択します。
 

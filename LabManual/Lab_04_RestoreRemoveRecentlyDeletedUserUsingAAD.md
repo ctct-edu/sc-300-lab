@@ -15,13 +15,13 @@ lab:
 
 #### 推定時間: 5 分
 
-## タスク1 - Azure Active Directory からユーザーを削除する
+### タスク1 - Azure Active Directory からユーザーを削除する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 
-1. 「ユーザー | すべてのユーザー」 リストで、「Chris Green」 を選択します。
+1. 「ユーザー | すべてのユーザー」 ブレードで、「Chris Green」 を選択します。
 
     ![リストから複数のユーザーを選択する機能を示した、1 つのユーザー チェック ボックスがオンになり、別のチェック ボックスが強調表示された、「すべてのユーザー」ユーザー リストを表示した画面イメージ。](./media/lp1-mod2-remove-user.png)
     

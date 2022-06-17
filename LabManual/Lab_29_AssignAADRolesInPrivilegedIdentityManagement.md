@@ -23,7 +23,7 @@ lab:
 
 #### 推定時間: 15 分
 
-## タスク 1 - ロールの割り当て
+### タスク 1 - ロールの割り当て
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -49,7 +49,7 @@ lab:
 
     
 
-## Miriam でログインする
+### タスク 2 - Miriam Grahamでサインインする
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 2. [Azure Portal](https://portal.azure.com) に`MiriamG@ctcXXXX.onmicrosoft.com`でサインインします。

@@ -13,9 +13,7 @@ lab:
 
 #### 推定時間: 5 分
 
-## 演習 1 - Microsoft365 ライセンスをユーザー アカウントに追加する
-
-### タスク1 - Azure Active Directory でライセンスのないユーザーを検索する
+### タスク1 - Azure Active Directory でライセンスのないユーザーに割り当てをする
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -47,7 +45,7 @@ lab:
 
 
 
-## タスク2 - 割り当てられたライセンスを確認する
+### タスク2 - 割り当てられたライセンスを確認する
 
 > 注:このタスクはスキップしてもOKです。
 
@@ -59,3 +57,5 @@ lab:
 
 
 この演習では、ユーザーアカウントにライセンスを付与しました。
+
+> 注:ライセンスはユーザー単位、グループ単位のいずれかで、付与することが可能です。

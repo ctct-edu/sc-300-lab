@@ -21,7 +21,7 @@ lab:
 
 #### 推定時間: 15 分
 
-## タスク 1 - カタログを作成する
+### タスク 1 - カタログを作成する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -49,7 +49,7 @@ lab:
 
    
 
-## タスク 2 - カタログにリソースを追加する
+#### タスク 2 - カタログにリソースを追加する
 
 1. 「Identity Governance | カタログ」ブレードの一覧で 「Marketing」 をクリックします。
 
@@ -74,7 +74,7 @@ lab:
 
    
 
-## タスク 2 - カタログ所有者を追加する
+### タスク 3 - カタログ所有者を追加する
 
 1. 一つ前のブレード「Identity Governance | カタログ」に移ります。
 
@@ -90,7 +90,7 @@ lab:
 
    
 
-## タスク 3 - カタログを編集する
+### タスク 4 - カタログを編集する
 
 1. 「Marketing」ブレードの左側のナビゲーションで、「概要」 をクリックします。
 

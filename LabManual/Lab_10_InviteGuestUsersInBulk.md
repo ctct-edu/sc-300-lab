@@ -15,7 +15,7 @@ lab:
 
 #### 推定時間: 10 分
 
-## 演習 1 - ゲスト ユーザーを一括招待する
+### タスク1 - ゲスト ユーザーを一括招待する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 

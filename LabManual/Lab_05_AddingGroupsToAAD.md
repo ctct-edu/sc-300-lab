@@ -5,7 +5,7 @@ lab:
     module: 'モジュール 02 - ID の作成、構成、管理を行う'
 ---
 
-# ラボ 05: Azure AD にグループを追加する
+# ラボ 05: Azure AD にMicrosoft365グループを追加する
 
 ## ラボ シナリオ
 
@@ -15,7 +15,7 @@ Azure AD 管理者としての職務の一環として、さまざまな種類�
 
 #### 推定時間: 5 分
 
-## タスク1 - Azure Active Directory で Microsoft 365 グループを作成する
+### タスク1 - Azure Active Directory で Microsoft 365 グループを作成する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 

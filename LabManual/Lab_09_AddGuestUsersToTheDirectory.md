@@ -13,7 +13,7 @@ lab:
 
 #### 推定時間: 5 分
 
-## 演習 1 - ゲスト ユーザーをディレクトリに追加する
+### タスク1 - ゲスト ユーザーをディレクトリに追加する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 

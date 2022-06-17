@@ -25,7 +25,7 @@ Azure Active Directory (Azure AD) Privileged Identity Management (PIM) では、
 
 #### 推定時間: 10 分
 
-## タスク 1 - Azure リソース ロールを割り当てる
+### タスク 1 - Azure リソース ロールを割り当てる
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 

@@ -15,7 +15,7 @@ lab:
 
 #### 推定時間: 5 分
 
-## タスク 1 - 新しいカスタム ロールを作成してアプリ登録を管理するためのアクセス権を付与する
+### タスク 1 - 新しいカスタム ロールを作成してアプリ登録を管理するためのアクセス権を付与する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
 

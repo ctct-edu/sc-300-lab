@@ -12,8 +12,6 @@ lab:
 
 #### 推定時間: 15 分
 
-## 演習 1 - SSPR を有効にしてグループを作成し、それにユーザーを追加する
-
 ### タスク 1 - SSPR を割り当てるグループを作成する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
@@ -38,7 +36,7 @@ lab:
 
 ### タスク 2 - テスト グループの SSPR を有効にする
 
-1. 確認後、Azure Active Directoryのトップ画面へ戻ります。
+1. Azure Active Directoryのトップ画面へ戻ります。
 
     > 注:「Contosoマーケティング | 概要」ブレードです。
 
@@ -56,7 +54,7 @@ lab:
 
     
 
-### タスク 3 - Alex 自身が電話番号を登録する
+### タスク 3 - Alex Wilber 自身が電話番号を登録する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 2. [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)に`AlexW@ctcXXXX.onmicrosoft.com` でサインインします。
@@ -68,7 +66,7 @@ lab:
 
 
 
-### タスク 4 - 管理者がBiancaの電話番号を登録する
+### タスク 4 - 管理者が Bianca Pisani の電話番号を登録する
 
 1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@ctcXXXX.onmicrosoft.com`でサインインします。
 
@@ -100,9 +98,11 @@ lab:
 
 6. SMSに届いたコードを入力し、「次へ」 を選択します。
 
-7. 「新しいパスワードの選択」ステップで、パスワード を「Pass@w.rd1234」 で設定します。
+7. 「新しいパスワードの選択」ステップで、パスワード を「Pa55w.rd1234」 で設定します。
 
-8. 完了したら、「完了」 を選択します。
+    > 注:今回は[Azure AD パスワードポリシー](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts) の設定を設定していないため、同じパスワードで設定できます。
+
+8. 「完了」 を選択します。
 
 9. 「パスワードがリセットされました」と表示されます。
 
@@ -110,9 +110,9 @@ lab:
 
 11. 完了したら、ブラウザーを閉じます。
 
-     > 注:前のタスクで設定した「Bianca」も同じ操作になります。時間があれば試してみてください。
+      > 注:前のタスクで設定した「Bianca」も同じ操作になります。時間があれば試してみてください。
 
-     
+      
 
 ### タスク 6 - SSPRTesters グループに属していないユーザーを検証する
 

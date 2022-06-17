@@ -15,7 +15,7 @@ Microsoft Sentinel にアクセスできることはわかっているので、�
 
 #### 推定時間: 10 分
 
-## タスク 1 - Microsoft Sentinel ワークスペースを作成および追加する
+### タスク 1 - Microsoft Sentinel ワークスペースを作成および追加する
 
 Microsoft Sentinel で使用できるワークスペースがまだない場合は、これらの手順を使用します。
 
@@ -44,7 +44,7 @@ Microsoft Sentinel で使用できるワークスペースがまだない場合�
 
     
 
-## タスク 2 - Azure Active Directory に接続する
+### タスク 2 - Azure Active Directory に接続する
 
 1. 「Microsoft Sentinel | ニュースとガイド」ブレードの 「データ コネクタ」 をクリックします。
 
