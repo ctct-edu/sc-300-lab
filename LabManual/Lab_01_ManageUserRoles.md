@@ -87,9 +87,9 @@ lab:
 
 8. 「Azure AD ギャラリーの参照」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS single sign-on」と入力します。
 
-9. 検索結果に「AWS single sign-on」が表示されます。クリックしてください。
+9. 検索結果に「AWS IAM Identity Center (successor to AWS Single Sign-On)」が表示されます。クリックしてください。
 
-10. 画面右側に「AWS single sign-on」と表示されますが、「作成」がクリックできないことを確認してください。
+10. 画面右側に「AWS IAM Identity Center (successor to AWS Single Sign-On)」と表示されますが、「作成」がクリックできないことを確認してください。
 
     > 注:これはアプリケーションを登録する権限がないため、作成することが出来ません。
 
