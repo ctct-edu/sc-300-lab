@@ -138,9 +138,9 @@ lab:
 
 5. 「Azure AD ギャラリーの参照」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS single sign-on」と入力します。
 
-6. 検索結果に「AWS single sign-on」が表示されます。クリックしてください。
+6. 検索結果に「AWS IAM Identity Center (successor to AWS Single Sign-On)」が表示されます。クリックしてください。
 
-7. 画面右側に「AWS single sign-on」と表示されますが、「作成」がクリック出来ることを確認し、アプリケーションの登録を行ってください。
+7. 画面右側に「AWS IAM Identity Center (successor to AWS Single Sign-On)」と表示されますが、「作成」がクリック出来ることを確認し、アプリケーションの登録を行ってください。
 
 8. Azure Portalの右上隅にある `ChrisG@ctcXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
 
