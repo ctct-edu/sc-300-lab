@@ -85,7 +85,7 @@ lab:
 
 7. 「エンタープライズ アプリケーション」ブレードが表示されます。「+ 新しいアプリケーション」をクリックしてください。
 
-8. 「Azure AD ギャラリーの参照」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS single sign-on」と入力します。
+8. 「Azure AD ギャラリーの参照」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS IAM Identity Center (successor to AWS Single Sign-On)」と入力します。
 
 9. 検索結果に「AWS IAM Identity Center (successor to AWS Single Sign-On)」が表示されます。クリックしてください。
 
