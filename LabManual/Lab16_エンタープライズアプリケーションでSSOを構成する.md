@@ -174,7 +174,7 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      | 項目       | 値                   |
      | ---------- | :------------------- |
-     | ユーザー名 | `ctcXXXX@outlook.jp` |
+     | ユーザー名 | `admin@ctcXXXX.onmicrosoft.com` |
      | パスワード | Pa55w.rd1234         |
 
      ![aad-sso-025](./media/aad-sso-025.BMP)
