@@ -1,16 +1,16 @@
 ---
 lab:
-    title: '21 - PIMでAzureADロールを割り当てる'
+    title: '21 - PIMでEntraロールを割り当てる'
     learning path: '04'
 ---
 
-# ラボ21：PIMでAzureADロールを割り当てる
+# ラボ21：PIMでEntraロールを割り当てる
 
 #### 推定時間: 10 分
 
 ### タスク 1 - ロールの割り当て
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. Azure AD
 
 1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
 

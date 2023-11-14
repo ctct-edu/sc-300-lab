@@ -12,7 +12,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`ChrisG@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 
@@ -26,7 +26,7 @@ lab:
 
 ### タスク 2 - 外部コラボレーションの設定を構成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「External Identities」 をクリックします。
 
@@ -46,7 +46,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`ChrisG@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 

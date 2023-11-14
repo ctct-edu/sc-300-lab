@@ -14,7 +14,7 @@ lab:
 
    > 保存したPDF「ContosoTerm.pdf」は演習で使用します。
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
 
@@ -90,7 +90,7 @@ lab:
 
 ### タスク3 - 同意したユーザーと拒否したユーザーのレポートを表示する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
 

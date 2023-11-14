@@ -10,7 +10,7 @@ lab:
 
 ### タスク 1 - ユーザー リスク ポリシーを有効にする
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
 

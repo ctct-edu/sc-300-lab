@@ -9,7 +9,7 @@ lab:
 
 ### タスク 1 - SSPR を割り当てるグループを作成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「グループ」を選択し「+ 新しいグループ」を選択します。
 
@@ -52,7 +52,7 @@ lab:
 ### タスク 3 - Alex Wilber 自身が電話番号を登録する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
-2. [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)に`AlexW@ctcXXXX.onmicrosoft.com` でサインインします。
+2. [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)に`AlexW@XXXXXXXXXXX.onmicrosoft.com` でサインインします。
 3. 「詳細情報が必要」画面が表示されます。「次へ」を選択してください。
 4. 「アカウントのセキュリティ保護」画面が表示されます。ご自身の電話番号を入力し、「次へ」をクリックします。
 5. SMSに届いたコードを入力します。
@@ -63,7 +63,7 @@ lab:
 
 ### タスク 4 - 管理者が Bianca Pisani の電話番号を登録する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「ユーザー」を選択し、さらに「Bianca Pisani」を選択します。
 
@@ -81,7 +81,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [Azure Portal]( https://portal.azure.com) に`AlexW@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [Azure Portal]( https://portal.azure.com) に`AlexW@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 「パスワードの入力」ページで、「パスワードを忘れた場合」 を選択します。
 
@@ -113,7 +113,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-   1. [Azure Portal]( https://portal.azure.com) に`GradyA@ctcXXXX.onmicrosoft.com`でサインインします。
+   1. [Azure Portal]( https://portal.azure.com) に`GradyA@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 「パスワードの入力」ページで、「パスワードを忘れた場合」 を選択します。
 

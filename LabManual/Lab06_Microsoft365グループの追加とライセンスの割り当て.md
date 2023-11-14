@@ -10,7 +10,7 @@ lab:
 
 ### タスク1 - Azure Active Directory で Microsoft 365 グループを作成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「グループ」 を選択します。
 
@@ -25,7 +25,7 @@ lab:
     | グループの種類| Microsoft 365 |
     | グループ名| Northwest Sales |
     | メンバーシップの種類| 割り当て済み|
-    | 所有者| `admin@ctcXXXX.onmicrosoft.com`  |
+    | 所有者| `admin@XXXXXXXXXXX.onmicrosoft.com` |
     | メンバー| Alex Wilber と Bianca Pisani |
 
     ![「グループの種類」、「グループ名」、「所有者」、「メンバー」が強調表示された「新しいグループ」ブレードが表示されている画面イメージ](./media/lp1-mod2-create-o365-group.png)
@@ -36,17 +36,17 @@ lab:
 
 ### タスク2 - グループ ライセンス割り当てを変更する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 1. 左側のナビゲーション メニューの「グループ」 を選択します。
 1. 前の演習で作成した 「Northwest Sales」 を選択します。
 1. 左側のナビゲーション メニューの「ライセンス」 を選択します。
 1. 「+ 割り当て」 ボタンを選択します。 
 
-1. 「ライセンス割り当ての更新」ブレードの 「ライセンスの選択」 で、「Azure Active Directory Premium P2」 のチェック ボックスをオンにします。
+1. 「ライセンス割り当ての更新」ブレードの 「ライセンスの選択」 で、「Office 365 E3」 のチェック ボックスをオンにします。
 
 1. 完了したら、「保存」 を選択します。
 
-1. 一つ前の画面「sg-SC300-O365」ページで、「Azure Active Directory Premium P2」が追加されたことを確認します。
+1. 一つ前の画面「sg-SC300-O365」ページで、「Office 365 E3」が追加されたことを確認します。
 
 
 

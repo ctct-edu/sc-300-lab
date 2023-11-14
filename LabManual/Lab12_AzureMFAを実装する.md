@@ -13,7 +13,7 @@ lab:
 
 ### タスク 1 - Azure Multi-Factor Authentication オプションを確認する
 
-1. [https://portal.azure.com](https://portal.azure.com) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [https://portal.azure.com](https://portal.azure.com) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. Azure Portalにサインイン後、上部の検索ダイアログより「多要素認証」 を検索します。
 
@@ -97,7 +97,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`DeliaD@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`DeliaD@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 「詳細情報が必要」と表示されます。「次へ」を選択してください。
 
@@ -109,7 +109,7 @@ lab:
 
 7. MFAの設定が完了しました。一度、サインアウトしてください。
 
-8. もう一度、`DeliaD@ctcXXXX.onmicrosoft.com`でサインインを試みます。
+8. もう一度、`DeliaD@XXXXXXXXXXX.onmicrosoft.com`でサインインを試みます。
 
 9. サインインを行う途中「ID を確認する」と表示されます。「+XX XXXXXXXXXXXにSMSを送信」をクリックしてください。
 
@@ -123,7 +123,7 @@ lab:
 
 ### タスク 1 - Azure AD のユーザーごとの MFA を構成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「ユーザー」を選択し、さらに「ユーザーごとの多要素認証」を選択します。
 
@@ -156,13 +156,13 @@ lab:
 > 注:以降の手順は演習1-タスク3と同じです。演習を実施しなくても構いません。
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
-2. [https://www.office.com](https://www.office.com) に`AdeleV@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`AdeleV@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 3. 「詳細情報が必要」と表示されます。「次へ」を選択してください。
 4. 「アカウントのセキュリティ保護」画面が表示されます。「別の方法を設定します」をクリックします。
 5. 「どの方法を使用しますか」では「電話」を選択し、確認をクリックしてください。
 6. 自身の電話番号を入力し、SMSで届いたコードを入力し、「次へ」と「完了」までクリックしてください。
 7. MFAの設定が完了しました。一度、サインアウトしてください。
-8. もう一度、`DeliaD@ctcXXXX.onmicrosoft.com`でサインインを試みます。
+8. もう一度、`DeliaD@XXXXXXXXXXX.onmicrosoft.com`でサインインを試みます。
 9. サインインを行う途中「ID を確認する」と表示されます。「+XX XXXXXXXXXXXにSMSを送信」をクリックしてください。
 10. 電話番号に届いたコードを入力し「検証」をクリックしてください。
 11. サインインが完了します。

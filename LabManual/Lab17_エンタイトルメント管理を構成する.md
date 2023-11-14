@@ -10,7 +10,7 @@ lab:
 
 ### タスク 1 - カタログを作成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
 
@@ -49,11 +49,11 @@ lab:
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
 
-| リソースの種類   | 値                                           |
-| :--------------- | :------------------------------------------- |
-| グループとチーム | sg-SC300-O365                                |
-| アプリケーション | AWS Single-Account Access                    |
-| アプリケーション | GitHub Enterprise Cloud - Enterprise Account |
+| リソースの種類   | 値            |
+| :--------------- | :------------ |
+| グループとチーム | sg-SC300-O365 |
+| アプリケーション | LinkedIn      |
+| アプリケーション | Box           |
 
 ![カタログにリソースを追加する](./media/catalog-add-resources.png)
 

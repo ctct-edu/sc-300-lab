@@ -11,7 +11,7 @@ lab:
 
 ### タスク 1 - Azure AD スマート ロックアウトの値を管理する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
 
@@ -36,7 +36,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-1. [Azure Portal]( https://portal.azure.com/) に`GradyA@ctcXXXX.onmicrosoft.com`でサインイン時に3回以上パスワード認証を失敗します。
+1. [Azure Portal]( https://portal.azure.com/) に`GradyA@XXXXXXXXXXX.onmicrosoft.com`でサインイン時に3回以上パスワード認証を失敗します。
 
 1. 認証画面にて、以下のメッセージが表示されます。
 
@@ -55,7 +55,7 @@ lab:
 >
 > 　 (例えば、adminのパスワードを３回失敗すると180秒、演習を実施することが出来ません。)
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
 

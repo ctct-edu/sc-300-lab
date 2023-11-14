@@ -8,9 +8,9 @@ lab:
 
 #### 推定時間: 10 分
 
-### タスク1 - Azure Active Directory でライセンスのないユーザーに割り当てをする
+### タスク1 - Microsoft Entra ID でライセンスのないユーザーに割り当てをする
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 
@@ -28,10 +28,10 @@ lab:
 
 8. 「+ 割り当て」 ボタンを選択します。 
 
-9. 「ライセンス割り当ての更新」ブレードの 「ライセンスの選択」 で、「Azure Active Directory Premium P2」 のチェック ボックスをオンにします。
+9. 「ライセンス割り当ての更新」ブレードの 「ライセンスの選択」 で、「Office 365 E3」 のチェック ボックスをオンにします。
 
 10. 完了したら、「保存」 を選択します。
 
-11. 一つ前の画面「Raul Razo | ライセンス」ページで、「Azure Active Directory Premium P2」が追加されたことを確認します。
+11. 一つ前の画面「Raul Razo | ライセンス」ページで、「Office 365 E3」が追加されたことを確認します。
 
      > 注：この作業はMicrosoft 365やPowerPlatformのライセンスがある場合、同様の手順となります。

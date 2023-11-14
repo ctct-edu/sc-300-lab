@@ -8,9 +8,9 @@ lab:
 
 #### 推定時間: 5 分
 
-## タスク 1 - Azure AD Identity Governance の設定で外部ユーザーのライフサイクルを管理する
+## タスク 1 - Identity Governance の設定で外部ユーザーのライフサイクルを管理する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
 

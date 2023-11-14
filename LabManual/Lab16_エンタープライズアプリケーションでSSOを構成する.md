@@ -22,12 +22,12 @@ lab:
      | -------------- | ------------------------------------------------------------ |
      | First Name     | XXXX                                                         |
      | Last Name      | ctc                                                          |
-     | Email          | `admin@ctcXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
+     | Email          | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
      | Role           | Developer                                                    |
      | Company        | ctcXXXX                                                      |
      | Country/Region | Japan                                                        |
      | Postal Code    | ctcXXXX.portal                                               |
-     | Username       | `admin@ctcXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
+     | Username       | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
 
      ![aad-sso-008](./media/aad-sso-008.BMP)
 
@@ -43,7 +43,7 @@ lab:
 
      | 項目                      | 値                                                           |
      | ------------------------- | ------------------------------------------------------------ |
-     | メール、電話、またはskype | `admin@ctcXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
+     | メール、電話、またはskype | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
      | パスワード                | Pa55w.rd1234                                                 |
 
      ![aad-sso-010](./media/aad-sso-010.BMP)
@@ -113,10 +113,10 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      > 注:XXXXはご自身のメールアドレス番号になります。
 
-     | 項目                      | 値                              |
-     | ------------------------- | :------------------------------ |
-     | メール、電話、またはskype | `admin@ctcXXXX.onmicrosoft.com` |
-     | パスワード                | Pa55w.rd1234                    |
+     | 項目                      | 値                                  |
+     | ------------------------- | :---------------------------------- |
+     | メール、電話、またはskype | `admin@XXXXXXXXXXX.onmicrosoft.com` |
+     | パスワード                | Pa55w.rd1234                        |
 
      
 
@@ -126,39 +126,23 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      
 
-4. 「エンタープライズ アプリケーション | すべてのアプリケーション」ブレードが表示されます。画面中央にある「+新しいアプリケーション」をクリックします。
+4. 「エンタープライズ アプリケーション | すべてのアプリケーション」ブレードが表示されます。
 
-     ![aad-sso-019](./media/aad-sso-019.BMP)
+5. 一覧上にある「Salesforce」をクリックします。
 
-     
-
-5. 「Azure AD ギャラリーの参照」ブレードが表示されます。画面左側にある「アプリケーションの検索」に「salesforce」と入力し、「salesforce」をクリックします。
-
-     > 注:似た項目で「salesforce sandbox」がありますが、こちらは選択しないでください。
-
-     ![aad-sso-020](./media/aad-sso-020.BMP)
-
-     
-
-6. クリック後に、画面右に「Salesforce」の登録画面が表示されます。何も変更せず「作成」をクリックします。
-
-     ![aad-sso-021](./media/aad-sso-021.BMP)
-
-     
-
-7. 作成をクリック後、画面が遷移され「Salesforce | 概要」ブレードが表示されます。画面左側にある「シングルサインオン」をクリックします。
+6. 作成をクリック後、画面が遷移され「Salesforce | 概要」ブレードが表示されます。画面左側にある「シングルサインオン」をクリックします。
 
      ![aad-sso-022](./media/aad-sso-022.BMP)
 
      
 
-8. 「Salesforce | シングル サインオン」ブレードが表示されます。シングルサインオン方式の選択で「SAML」をクリックします。
+7. 「Salesforce | シングル サインオン」ブレードが表示されます。シングルサインオン方式の選択で「SAML」をクリックします。
 
      ![aad-sso-023](./media/aad-sso-023.BMP)
 
      
 
-9. 「Salesforce | SAML ベースのサインオン」画面が表示されます。画面中央の必須項目を埋める必要があります。画面はこのままにし、次のタスクへ進みます。
+8. 「Salesforce | SAML ベースのサインオン」画面が表示されます。画面中央の必須項目を埋める必要があります。画面はこのままにし、次のタスクへ進みます。
 
 ![aad-sso-024](./media/aad-sso-024.BMP)
 
@@ -174,7 +158,7 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      | 項目       | 値                   |
      | ---------- | :------------------- |
-     | ユーザー名 | `admin@ctcXXXX.onmicrosoft.com` |
+     | ユーザー名 | `admin@XXXXXXXXXXX.onmicrosoft.com` |
      | パスワード | Pa55w.rd1234         |
 
      ![aad-sso-025](./media/aad-sso-025.BMP)
@@ -307,8 +291,10 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      | 項目      | 値      |
      | --------- | ------- |
-     | 名前      | AzureAD |
-     | API参照名 | AzureAD |
+     | 名前      | EntraID |
+     | API参照名 | EntraID |
+
+     > 画面キャプチャは「AzureAD」と古い内容になっています。
 
      ![aad-sso-041](./media/aad-sso-041.BMP)
 
@@ -332,7 +318,9 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      
 
-9. 「認証設定」画面で「認証サービス」があります。「AzureAD」にチェックを入れて「保存」をクリックします。
+9. 「認証設定」画面で「認証サービス」があります。「EntraID」にチェックを入れて「保存」をクリックします。
+
+     > 画面キャプチャは「AzureAD」と古い内容になっています。
 
      ![aad-sso-045](./media/aad-sso-045.BMP)
 
@@ -364,7 +352,7 @@ AzureADユーザーでSalesforceにSSOする場合、ユーザーと役割を設
 
    
 
-3. 「所有者の選択」画面が表示されます。`admin@ctcXXXX.onmicrosoft.com`のユーザーをクリックし、「選択」をクリックします。
+3. 「所有者の選択」画面が表示されます。`admin@XXXXXXXXXXX.onmicrosoft.com`のユーザーをクリックし、「選択」をクリックします。
 
    ![aad-sso-048](./media/aad-sso-048.BMP)
 
@@ -386,10 +374,10 @@ AzureADユーザーでSalesforceにSSOする場合、ユーザーと役割を設
    >
    > 　　  Salesforceの画面で[管理]→[ユーザ]より確認できます。
 
-   | 項目                     | 値                   |
-   | ------------------------ | -------------------- |
-   | ユーザー                 | ctcXXXX              |
-   | ロールを選択してください | System Administrator |
+   | 項目                     | 値                                  |
+   | ------------------------ | ----------------------------------- |
+   | ユーザー                 | `admin@XXXXXXXXXXX.onmicrosoft.com` |
+   | ロールを選択してください | System Administrator                |
 
    ![aad-sso-050](./media/aad-sso-050.BMP)
 
@@ -429,14 +417,14 @@ AzureADユーザーでSalesforceにSSOする場合、ユーザーと役割を設
 
    > 注:XXXXはご自身のメールアドレス番号になります。
 
-   | 項目                | 値                            |
-   | ------------------- | ----------------------------- |
-   | メール、電話、Skpye | admin@ctcXXXX.onmicrosoft.com |
-   | パスワード          | Pa55w.rd1234                  |
+   | 項目                | 値                                |
+   | ------------------- | --------------------------------- |
+   | メール、電話、Skpye | admin@XXXXXXXXXXX.onmicrosoft.com |
+   | パスワード          | Pa55w.rd1234                      |
 
    
 
-4. Salesforceの画面が表示されました。これでAzureADユーザーを使用してSalesforceにSSOすることが可能になります。
+4. Salesforceの画面が表示されました。これでEntraIDユーザーを使用してSalesforceにSSOすることが可能になります。
 
    ![aad-sso-053](./media/aad-sso-053.BMP)
 

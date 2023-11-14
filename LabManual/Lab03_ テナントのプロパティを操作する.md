@@ -10,15 +10,11 @@ lab:
 
 ### タスク 1 - テナント名と技術部連絡先を設定する
 
-1. [https://portal.azure.com](https://portal.azure.com) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 「ポータル メニューの表示」 ハンバーガー アイコンを選択し、「Azure Active Directory」 を選択します。
+2. 左側のナビゲーション メニューの 「プロパティ」 を選択します。
 
-    ![「Azure Active Directory」が選択された Azure portal メニュー](./media/azure-portal-menu-aad.png)
-
-3. 左側のナビゲーション メニューの 「プロパティ」 を選択します。
-
-4. 「 プロパティ」ブレードで、「テナントのプロパティ」項目に、次の情報を入力して「保存」を選択します。
+3. 「 プロパティ」ブレードで、「テナントのプロパティ」項目に、次の情報を入力して「保存」を選択します。
 
     > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
@@ -27,7 +23,7 @@ lab:
 | 設定 | 値 |
 | :--- | :--- |
 | 名前 | Contosoマーケティング |
-| 技術部連絡先 | `admin@ctcXXXX.onmicrosoft.com` |
+| 技術部連絡先 | `admin@XXXXXXXXXXX.onmicrosoft.com` |
 
 5. 画面内に表示されていた「既定のテナント」から「Contosoマーケティング」に変わったことを確認してください。
 
@@ -47,14 +43,14 @@ lab:
 
 | 設定                           | 値                                                           |
 | :----------------------------- | :----------------------------------------------------------- |
-| グローバルプライバシーの連絡先 | `AllanD@ctctXXXX.onmicrosoft.com`                            |
+| グローバルプライバシーの連絡先 | `AllanD@XXXXXXXXXXX.onmicrosoft.com`                         |
 | プライバシーに関する声明 URL   | `https://ctctedu.blob.core.windows.net/sc-300-lab/ContosoTerm.pdf` |
 
 
 
 ### タスク 3 - プライバシーに関する声明を確認する
 
-1. Azure Portalの右上隅にある `admin@ctcXXXX.onmicrosoft.com` の名前をクリックします。
+1. Azure Portalの右上隅にある `admin@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックします。
 1. ドロップダウン メニューから「アカウントを表示」を選択します。
 1. 「マイアカウント」のページが表示されます。
 1. 左側のナビゲーション メニューの 「設定およびプライバシー」を選択します。

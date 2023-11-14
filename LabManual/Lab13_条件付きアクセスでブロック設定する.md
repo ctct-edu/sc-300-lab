@@ -12,7 +12,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`DebraB@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`DebraB@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 正常にサインインできたことを確認します。
 
@@ -22,7 +22,7 @@ lab:
 
 ### タスク 2 - 条件付きアクセスポリシーを作成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
 
@@ -71,7 +71,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`DebraB@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`DebraB@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 「これに対するアクセス権がありません」と表示され、サインインに失敗したことを確認します。
 
@@ -81,7 +81,7 @@ lab:
 
 ### タスク 4 - 作成した条件付きアクセスポリシーをオフにする
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 2. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
 3. 「セキュリティ | はじめに」ブレードで「条件付きアクセス」をクリックします。
 4. 「条件付きアクセス | ポリシー」ブレードで作成した「Block M365 for DebraB」をクリックします。

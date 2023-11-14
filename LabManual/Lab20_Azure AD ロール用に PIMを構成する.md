@@ -1,16 +1,16 @@
 ---
 lab:
-    title: '20 - Azure AD ロール用に PIMを構成する'
+    title: '20 - Entraロール用に PIMを構成する'
     learning path: '04'
 ---
 
-# ラボ20：Azure AD ロール用に PIMを構成する
+# ラボ20：Entra ロール用に PIMを構成する
 
 #### 推定時間: 10 分
 
-### タスク 1 - Azure AD ロールの設定を構成する
+### タスク 1 - Entra ロールの設定を構成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
 

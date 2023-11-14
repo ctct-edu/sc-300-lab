@@ -10,13 +10,13 @@ lab:
 
 ### タスク 1 - 新しいユーザーを追加する
 
-1. [https://portal.azure.com](https://portal.azure.com) に`admin@ctcXXXX.onmicrosoft.com`でサインインします。
+1. [https://portal.azure.com](https://portal.azure.com) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
      > 注:XXXXはご自身のアカウント番号を入力してください。
 
-2. Azure Portalにサインイン後、上部の検索ダイアログより「Azure Active Directory」 を検索してクリックします。
+2. Azure Portalにサインイン後、上部の検索ダイアログより「Microsoft Entra ID」 を検索してクリックします。
 
-3. Azure Active Directoryの画面が表示されます。左側のナビゲーション メニューより「ユーザー」 をクリックします。
+3. Microsoft Entra IDの画面が表示されます。左側のナビゲーション メニューより「ユーザー」 をクリックします。
 
 4. 「+ 新しいユーザー」 →「新しいユーザーの作成」をクリックします。
 
@@ -68,8 +68,8 @@ lab:
 
     | 設定 | 値 |
     | :--- | :--- |
-    | ユーザー名| `ChrisG@ctcXXXX.onmicrosoft.com` |
-    | パスワード| Pa55w.rd123456 |
+    | ユーザー名| `ChrisG@XXXXXXXXXXX.onmicrosoft.com` |
+    | パスワード| Pa55w.rd12345 |
 
     
 
@@ -101,15 +101,15 @@ lab:
 
     > 注:これはアプリケーションを登録する権限がないため、作成することが出来ません。
 
-11. Azure Portalの右上隅にある `ChrisG@ctcXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
+11. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
 
      
 
 ### タスク 3 - ユーザーにロールを割り当てる
 
-1. `admin@ctcXXXX.onmicrosoft.com`でサインインしているWebブラウザに戻ります。
+1. `admin@XXXXXXXXXXX.onmicrosoft.com`でサインインしているWebブラウザに戻ります。
 
-2. 「Azure Active Directory」ブレードに移動します。
+2. 「Microsoft Entra ID」ブレードに移動します。
 
 3. 左側のナビゲーション メニューの「ユーザー」をクリックします。
 
@@ -137,7 +137,7 @@ lab:
 
     | 設定 | 値 |
     | :--- | :--- |
-    | ユーザー名| `ChrisG@ctcXXXX.onmicrosoft.com` |
+    | ユーザー名| `ChrisG@XXXXXXXXXXX.onmicrosoft.com` |
     | パスワード| Pa$$w.rd1234 |
 
 3. Azure Portalの検索ダイアログより「エンタープライズ アプリケーション」を検索してクリックします。
@@ -150,15 +150,15 @@ lab:
 
 7. 「作成」がクリック出来ることを確認し、アプリケーションの登録を行ってください。
 
-8. Azure Portalの右上隅にある `ChrisG@ctcXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
+8. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
 
     
 
 ### タスク 5 - Chris Green からアプリケーション管理者を削除する
 
-1. `admin@ctcXXXX.onmicrosoft.com`でサインインしているWebブラウザに戻ります。
+1. `admin@XXXXXXXXXXX.onmicrosoft.com`でサインインしているWebブラウザに戻ります。
 
-2. 「Azure Active Directory」ブレードに移動します。
+2. 「Microsoft Entra ID」ブレードに移動します。
 
 3. 左側のナビゲーション メニューの「ロールと管理者」をクリックし、一覧から アプリケーション管理者 のロールクリックします。
 
