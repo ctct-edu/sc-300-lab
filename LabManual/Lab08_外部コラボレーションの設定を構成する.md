@@ -12,7 +12,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`ChrisG@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 
@@ -46,15 +46,28 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`ChrisG@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 
-4. 「+新しいユーザー」→「外部ユーザーの招待」 を選択できないことを確認します。
+4. 「+新しいユーザー」→「外部ユーザーの招待」 を選択します。
+
+5. 次の情報を使用し「レビューと招待」をクリックします。
+
+   > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
+
+   | 設定   | 値                  |
+   | :----- | :------------------ |
+   | メール | `JackD@contoso.com` |
+   | 表示名 | Jack Daniel         |
+
+6. 設定内容を確認し、「招待」をクリックします。
+
+7. しばらくすると通知に「ユーザーの招待に失敗しました」できないことを確認します。
 
    > 注:これは前のタスクで「ゲスト招待の制限」で特定の管理者ロールを持つユーザーのみ招待する設定に変更したためです。
 
-5. ブラウザー ウィンドウを閉じます。
+8. ブラウザー ウィンドウを閉じます。
 
 
 
