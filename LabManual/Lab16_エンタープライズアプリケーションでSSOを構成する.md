@@ -20,13 +20,13 @@ lab:
 
      | 項目           | 値                                                           |
      | -------------- | ------------------------------------------------------------ |
-     | First Name     | XXXX                                                         |
+     | First Name     | XXXXXXXXXXX                                                          |
      | Last Name      | ctc                                                          |
      | Email          | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
      | Role           | Developer                                                    |
-     | Company        | ctcXXXX                                                      |
+     | Company        | XXXXXXXXXXX                                                      |
      | Country/Region | Japan                                                        |
-     | Postal Code    | ctcXXXX.portal                                               |
+     | Postal Code    | XXXXXXXXXXX.portal                                               |
      | Username       | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
 
      ![aad-sso-008](./media/aad-sso-008.BMP)
@@ -44,7 +44,7 @@ lab:
      | 項目                      | 値                                                           |
      | ------------------------- | ------------------------------------------------------------ |
      | メール、電話、またはskype | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
-     | パスワード                | Pa55w.rd1234                                                 |
+     | パスワード                | ラボで使用しているパスワードと同じ                                                 |
 
      ![aad-sso-010](./media/aad-sso-010.BMP)
 
@@ -60,8 +60,8 @@ lab:
 
      | 項目                   | 値           |
      | ---------------------- | ------------ |
-     | 新しいパスワード       | Pa55w.rd1234 |
-     | 新しいパスワードの確認 | Pa55w.rd1234 |
+     | 新しいパスワード       | ラボで使用しているパスワードと同じ |
+     | 新しいパスワードの確認 | ラボで使用しているパスワードと同じ |
      | セキュリティの質問     | 出身地は?    |
      | 回答                   | 日本         |
 
@@ -116,7 +116,7 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
      | 項目                      | 値                                  |
      | ------------------------- | :---------------------------------- |
      | メール、電話、またはskype | `admin@XXXXXXXXXXX.onmicrosoft.com` |
-     | パスワード                | Pa55w.rd1234                        |
+     | パスワード                | ラボで使用しているパスワードと同じ                        |
 
      
 
@@ -420,7 +420,7 @@ AzureADユーザーでSalesforceにSSOする場合、ユーザーと役割を設
    | 項目                | 値                                |
    | ------------------- | --------------------------------- |
    | メール、電話、Skpye | admin@XXXXXXXXXXX.onmicrosoft.com |
-   | パスワード          | Pa55w.rd1234                      |
+   | パスワード          | ラボで使用しているパスワードと同じ                      |
 
    
 
