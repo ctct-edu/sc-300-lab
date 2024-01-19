@@ -16,17 +16,17 @@ lab:
 
 2. 「Sign up for your Salesforce Developer Edition」が表示されます。次の項目を入力し、チェックボックスにすべてチェックを入れ、「Sign me Up」をクリックします。
 
-     > 注: XXXXはご自身のメールアドレス番号になります。
+     > 注: XXXXはご自身のTenant Prefixになります。
 
      | 項目           | 値                                                           |
      | -------------- | ------------------------------------------------------------ |
-     | First Name     | XXXXXXXXXXX                                                          |
+     | First Name     | XXXXXXXXXXX                                                  |
      | Last Name      | ctc                                                          |
      | Email          | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
      | Role           | Developer                                                    |
-     | Company        | XXXXXXXXXXX                                                      |
+     | Company        | XXXXXXXXXXX                                                  |
      | Country/Region | Japan                                                        |
-     | Postal Code    | XXXXXXXXXXX.portal                                               |
+     | Postal Code    | XXXXXXXXXXX.portal                                           |
      | Username       | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
 
      ![aad-sso-008](./media/aad-sso-008.BMP)
