@@ -25,7 +25,7 @@ lab:
     | グループの種類| Microsoft 365 |
     | グループ名| Northwest Sales |
     | メンバーシップの種類| 割り当て済み|
-    | 所有者| `admin@XXXXXXXXXXX.onmicrosoft.com` |
+    | 所有者| `MOD Administrator(admin@XXXXXXXXXXX.onmicrosoft.com)` |
     | メンバー| Alex Wilber と Bianca Pisani |
 
     ![「グループの種類」、「グループ名」、「所有者」、「メンバー」が強調表示された「新しいグループ」ブレードが表示されている画面イメージ](./media/lp1-mod2-create-o365-group.png)
