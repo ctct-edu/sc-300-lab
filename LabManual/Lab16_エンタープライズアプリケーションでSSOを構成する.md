@@ -26,6 +26,7 @@ lab:
      | Role           | Developer                                                    |
      | Company        | XXXXXXXXXXX                                                  |
      | Country/Region | Japan                                                        |
+     | State/Province | 任意(Tokyo等)                                                |
      | Postal Code    | XXXXXXXXXXX.portal                                           |
      | Username       | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
 
@@ -69,7 +70,9 @@ lab:
 
      
 
-7. 「設定|ホーム」画面にリダイレクトされます。Salesforceの登録が完了しました。
+7. 「セールス|ホーム」画面にリダイレクトされます。画面右上の「歯車」をクリックし、「設定」をクリックします。
+
+8. 「設定|ホーム」画面にジャンプされます。
 
      ![aad-sso-013](./media/aad-sso-013.BMP)
 
@@ -225,25 +228,7 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      
 
-4. 「Salesforce | SAML ベースのサインオン」ブレードに戻り、画面中央にある「このアプリケーションをTest」をクリックします。
-
-     ![aad-sso-032](./media/aad-sso-032.BMP)
-
-     
-
-5. 「Salesforce でシングル サインオンをTest」画面が表示されます。「サインインをテストする方法を選択」を「現在のユーザーとしてサインイン」を選び、「サインインのテスト」をクリックします。
-
-     ![aad-sso-033](./media/aad-sso-033.BMP)
-
-     
-
-6. Webブラウザの別タブ(または別ウィンドウ)が開き、Salesforceの画面が表示されれば成功です。
-
-     ![aad-sso-034](./media/aad-sso-034.BMP)
-
-     
-
-7. 一度、別タブ(または別ウィンドウ)で開いたSalesforceの画面と閉じます。
+7. 一度、Salesforceの画面を閉じます。
 
 8. 「Salesforce | SAML ベースのサインオン」ブレードに戻り、画面中央にある「SAML署名証明書」項目の「フェデレーション メタデータ XML」をダウンロードします。
 
@@ -407,7 +392,7 @@ AzureADユーザーでSalesforceにSSOする場合、ユーザーと役割を設
 
    > 注:タスク5-3で入力したURLです。
 
-2. サインイン画面の下部にある「AzureAD」をクリックします。
+2. サインイン画面の下部にある「次を使用してログイン EntraID」をクリックします。
 
    ![aad-sso-052](./media/aad-sso-052.BMP)
 
