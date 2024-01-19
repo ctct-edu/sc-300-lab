@@ -61,23 +61,7 @@ lab:
 
 
 
-### タスク 4 - 管理者が Bianca Pisani の電話番号を登録する
-
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
-
-2. 左側のナビゲーション メニューの「ユーザー」を選択し、さらに「Bianca Pisani」を選択します。
-
-3. 「Bianca Pisani | プロファイル」ブレードの左側のナビゲーション メニューの「認証方法」をクリックします。
-
-4. 「認証の連絡先情報」の「電話」にご自身の電話番号を入力し、「保存」をクリックします。
-
-   > 注:電話番号の入力フォーマット例は以下になります。
-   >
-   > 　 +81 08012345678
-
-
-
-### タスク 5 - SSPR をテストする
+### タスク 4 - SSPR をテストする
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
@@ -109,7 +93,7 @@ lab:
 
       
 
-### タスク 6 - SSPRTesters グループに属していないユーザーを検証する
+### タスク 5 - SSPRTesters グループに属していないユーザーを検証する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
