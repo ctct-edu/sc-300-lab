@@ -79,10 +79,6 @@ lab:
 
 7. 「新しいパスワードの選択」ステップで、パスワード を「Pa55w.rd1234」 で設定します。
 
-    > 注:今回は[Azure AD パスワードポリシー](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts) の設定を設定していないため、同じパスワードで設定できます。
-
-8. 「完了」 を選択します。
-
 9. 「パスワードがリセットされました」と表示されます。
 
 10. 「新しいパスワードでサインインするには、ここをクリックします。」を使用し、AlexWとしてサインインします。
