@@ -89,7 +89,7 @@ lab:
 
     
 
-### タスク3 - 同意したユーザーと拒否したユーザーのレポートを表示する
+### タスク3 - 同意したユーザーのレポートを表示する
 
 1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
