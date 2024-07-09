@@ -31,7 +31,7 @@ lab:
 
 ### タスク 2 - テスト グループの SSPR を有効にする
 
-1. Azure Active Directoryのトップ画面へ戻ります。
+1. Micrsoft Entra IDのトップ画面へ戻ります。
 
     > 注:「Contosoマーケティング | 概要」ブレードです。
 
