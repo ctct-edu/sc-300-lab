@@ -127,7 +127,7 @@ lab:
 
 1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 左側のナビゲーション メニューの「ユーザー」を選択し、さらに「ユーザーごとの多要素認証」を選択します。
+2. 左側のナビゲーション メニューの「ユーザー」を選択し、さらに「ユーザーごとのMFA」を選択します。
 
     ![MFA オプションを示すスクリーンショット](./media/lp2-mod1-users-mfa.png)
 
