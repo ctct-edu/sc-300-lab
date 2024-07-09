@@ -48,7 +48,7 @@ lab:
 
 2. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`ChrisG@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-3. 左側のナビゲーション メニューの「ユーザー」 を選択します。
+3. 左側のナビゲーション メニューで「管理」を展開し「ユーザー」 を選択します。
 
 4. 「+新しいユーザー」→「外部ユーザーの招待」 を選択します。
 
