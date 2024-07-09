@@ -12,7 +12,7 @@ lab:
 
 1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 左側のナビゲーション メニューの 「プロパティ」 を選択します。
+2. 左側のナビゲーション メニューで「管理」を展開し「プロパティ」 を選択します。
 
 3. 「 プロパティ」ブレードで、項目に、次の情報を入力して「保存」を選択します。
 
@@ -25,7 +25,7 @@ lab:
 | 名前 | Contosoマーケティング |
 | 技術部連絡先 | `admin@XXXXXXXXXXX.onmicrosoft.com` |
 
-5. 画面内に表示されていた「既定のテナント」から「Contosoマーケティング」に変わったことを確認してください。
+5. 画面左上に表示されていた「Contoso」から「Contosoマーケティング」に変わったことを確認してください。
 
       
 
