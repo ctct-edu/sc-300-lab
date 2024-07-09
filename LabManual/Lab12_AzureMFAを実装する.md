@@ -117,7 +117,7 @@ lab:
 
 10. 電話番号に届いたコードを入力し「検証」をクリックしてください。
 
-11. サインインが完了します。
+11. サインインが完了します。(パスワードの更新が求められた場合は、「Pa55w.rd1234」に設定してください)
 
     
 
@@ -125,7 +125,7 @@ lab:
 
 ### タスク 1 - Azure AD のユーザーごとの MFA を構成する
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「ユーザー」を選択し、さらに「ユーザーごとの多要素認証」を選択します。
 
