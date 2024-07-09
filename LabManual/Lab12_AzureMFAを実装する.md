@@ -123,7 +123,7 @@ lab:
 
 ## 演習 2 - ログインに必要になるように MFA を構成する
 
-### タスク 1 - Azure AD のユーザーごとの MFA を構成する
+### タスク 1 - Entra ID のユーザーごとの MFA を構成する
 
 1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
@@ -167,7 +167,9 @@ lab:
 8. もう一度、`AdeleV@XXXXXXXXXXX.onmicrosoft.com`でサインインを試みます。
 9. サインインを行う途中「ID を確認する」と表示されます。「+XX XXXXXXXXXXXにSMSを送信」をクリックしてください。
 10. 電話番号に届いたコードを入力し「検証」をクリックしてください。
-11. サインインが完了します。
+11. サインインが完了します。(パスワードの更新が求められた場合は、「Pa55w.rd1234」に設定してください)
+
+    
 
 
 
