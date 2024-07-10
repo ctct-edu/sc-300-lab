@@ -12,7 +12,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`DebraB@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`DebraB@XXXXXXXXXXX.onmicrosoft.com`でサインインします。(パスワードの更新が求められた場合は、「Pa55w.rd1234」に設定してください)
 
 3. 正常にサインインできたことを確認します。
 
@@ -45,13 +45,13 @@ lab:
     |          | ユーザーとグループ に☑を入れる                               |
     | 選択     | Debra Berger                                                 |
 
-7. 「クラウド アプリまたは操作」 を設定します。
+7. 「ターゲットリソース」 を設定します。
 
-    | 設定             | 値                                                          |
-    | ---------------- | ----------------------------------------------------------- |
-    | ーゲットリソース | 「ターゲット リソースが選択されていません」リンクをクリック |
-    | 対象             | アプリを選択                                                |
-    | 選択             | 「なし」リンクをクリック　⇒　「Office365」を選択            |
+    | 設定               | 値                                                          |
+    | ------------------ | ----------------------------------------------------------- |
+    | ターゲットリソース | 「ターゲット リソースが選択されていません」リンクをクリック |
+    | 対象               | アプリを選択                                                |
+    | 選択               | 「なし」リンクをクリック　⇒　「Office365」を選択            |
 
 8. 「アクセス制御」 で「0 個のコントロールが選択されました」 リンクをクリックします。
 
@@ -81,7 +81,7 @@ lab:
 
 ### タスク 4 - 作成した条件付きアクセスポリシーをオフにする
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 2. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
 3. 「セキュリティ | はじめに」ブレードで「条件付きアクセス」をクリックします。
 4. 「条件付きアクセス | 概要」ブレードで「ポリシー」をクリックします。「条件付きアクセス | ポリシー」ブレードで作成した「Block M365 for DebraB」をクリックします。
