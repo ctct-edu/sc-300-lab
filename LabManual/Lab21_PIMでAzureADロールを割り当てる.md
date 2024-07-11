@@ -10,7 +10,7 @@ lab:
 
 ### タスク 1 - ロールの割り当て
 
-1. Azure AD
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
 
@@ -24,15 +24,19 @@ lab:
 
     ![「割り当ての追加」メニューが強調表示された Azure AD ロールを表示している画面イメージ](./media/lp4-mod3-pim-assign-role.png)
 
-1. 「ロールの検索」 メニューをクリックし、「コンプライアンス管理者」 をクリックします。
+1. 「ロールの選択」 ドロップダウンリストをクリックし、「コンプライアンス管理者」 をクリックします。
 
-1. 「メンバーのクリック」 で 「Miriam Graham」 をクリックしてから、「次へ」 をクリックします。
+1. 「メンバーが選択されていない」 をクリックします。
+
+1.  「Miriam Graham」 をクリックしてから、「選択」 をクリックします。
 
     ![クリックしたメンバーが強調表示された「メンバーのクリック」ウィンドウを表示している画面イメージ](./media/lp4-mod3-pim-add-role-assignment.png)
 
+1. 「次へ」をクリックします。
+
 1. 「割り当て」 をクリックします。
 
-    
+      
 
 ### タスク 2 - Miriam Grahamでサインインする
 
