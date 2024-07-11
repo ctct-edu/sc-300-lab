@@ -41,7 +41,7 @@ lab:
 ### タスク 2 - Miriam Grahamでサインインする
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
-2. [Azure Portal](https://portal.azure.com) に`MiriamG@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [Azure Portal](https://portal.azure.com) に`MiriamG@ctcXXXX.onmicrosoft.com`でサインインします。(パスワードの更新が求められた場合は、「Pa55w.rd1234」に設定してください)
 3. 「リソース、サービス、ドキュメントの検索」 バーから、Microsoft Entra ID を探し、ブレードを開きます。
 4. 「Contosoマーケティング | 概要」ブレードで画面を下にスクロールし「マイ フィード」 の中にある「ロール情報の表示」をクリックします。
 5. 「Miriam Graham | 割り当てられたロール」 ブレードで「資格のある割り当て」タブをクリックすると、登録したロールが表示されます。
