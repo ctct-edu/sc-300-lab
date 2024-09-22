@@ -4,7 +4,7 @@ lab:
     learning path: '04'
 ---
 
-# ラボ20：Entra ロール用に PIMを構成する
+# ラボ19：Entra ロール用に PIMを構成する
 
 #### 推定時間: 10 分
 

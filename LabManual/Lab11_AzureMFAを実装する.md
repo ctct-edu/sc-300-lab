@@ -5,7 +5,7 @@ lab:
     module: 'モジュール 01 - Azure Multi-Factor Authentication の計画と管理を行う'
 ---
 
-# ラボ12：AzureMFAを実装する
+# ラボ11：AzureMFAを実装する
 
 #### 推定時間: 20 分
 

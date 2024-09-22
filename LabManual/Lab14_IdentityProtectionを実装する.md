@@ -4,7 +4,7 @@ lab:
     learning path: '02'
 ---
 
-# ラボ15：Identity Protectionを実装する
+# ラボ14：Identity Protectionを実装する
 
 #### 推定時間: 10 分
 
