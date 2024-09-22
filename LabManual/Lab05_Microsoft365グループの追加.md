@@ -4,7 +4,7 @@ lab:
     learning path: '01'
 ---
 
-# ラボ 05：Microsoft365グループの追加と
+# ラボ 05：Microsoft365グループの追加
 
 #### 推定時間: 5分
 
