@@ -142,7 +142,7 @@ lab:
     | 設定 | 値 |
     | :--- | :--- |
     | ユーザー名| `ChrisG@XXXXXXXXXXX.onmicrosoft.com` |
-    | パスワード| Pa$$w.rd1234 |
+    | パスワード| Pa55w.rd1234 |
 
 3. Azure Portalの検索ダイアログより「エンタープライズ アプリケーション」を検索してクリックします。
 
