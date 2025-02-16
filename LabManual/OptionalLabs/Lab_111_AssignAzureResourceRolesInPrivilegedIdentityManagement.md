@@ -25,13 +25,15 @@ Microsoft Entra Privileged Identity Management (PIM) は、組み込みの Azure
 
 ### 演習 1 - Azure AD リソースを使用した PIM
 
-※Skillable環境では、本演習に必要な権限がIDにないため、最後の手順がエラーとなることがあります。そのため手順の参考程度にとどめてください。
+
+
+※ Skillable環境では、本演習に必要な権限がIDにないため、最後の手順がエラーとなります。そのため手順の参考程度にとどめてください。
 
 
 
 #### タスク 1 - Azure リソース ロールを割り当てる
 
-1. [https://entra.microsoft.com](https://entra.microsoft.com) にサインインします。(必要に応じて、Azure Portalと同じ手順で日本語表記に変更してください。)
+1. [https://entra.microsoft.com](https://entra.microsoft.com) にグローバル管理者でサインインします。(必要に応じて、Azure Portalと同じ手順で日本語表記に変更してください。)
 
 2. **[Privileged Identity Management]** を検索してから選択します。
 
