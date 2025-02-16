@@ -27,7 +27,7 @@ Microsoft Entra Privileged Identity Management (PIM) は、組み込みの Azure
 
 
 
-※ Skillable環境では、本演習に必要な権限がIDにないため、最後の手順がエラーとなります。そのため手順の参考程度にとどめてください。
+**※ Skillable環境では、本演習に必要な権限がIDにないため、最後の手順がエラーとなります。そのため手順の参考程度にとどめてください。**
 
 
 
