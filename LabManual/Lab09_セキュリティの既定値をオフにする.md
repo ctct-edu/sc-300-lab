@@ -10,7 +10,7 @@ lab:
 
 ### ※この演習環境は既にセキュリティの規定値がオフのため、設定箇所をご確認ください。
 
-### タスク 1 - セキュリティ規定値群を無効化する
+### タスク 1 - セキュリティ既定値群を無効化する
 
 1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
