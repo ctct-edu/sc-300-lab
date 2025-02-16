@@ -9,6 +9,15 @@ lab:
 
 #### 推定時間: 20 分
 
+### 事前準備 - Officeユーザーポータルのアクセスに多要素認証が要求されないことを確認する。
+
+1. 新しい InPrivate ブラウザー ウィンドウを開きます。
+
+2. [https://www.office.com](https://www.office.com/) に`DeliaD@XXXXXXXXXXX.onmicrosoft.com`でサインインします。（初期パスワードは Skillable より取得した User Password です。）
+3. InPrivate ブラウザー を閉じます。
+
+
+
 ## 演習 1 - Azure でMulti-Factor Authenticationを確認して有効にする
 
 
@@ -147,12 +156,12 @@ lab:
 >
 > ■ 条件付きアクセスポリシーで設定する場合
 >
->   - Azure AD Premiumライセンスが必要になります。
+>   - Microsoft Entra Premiumライセンスが必要になります。
 >   - グループ単位、アプリケーション単位など細かな設定を行うことが可能です。
 >
 > ■ ユーザーブレードから設定する場合
 >
->   - Azure AD Freeで可能です。
+>   - icrosoft Entra Freeで可能です。
 >   - MFAを使用することは可能ですが、条件付きアクセスポリシーほど細かな設定は出来ません。
 
 　
