@@ -12,7 +12,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`DebraB@XXXXXXXXXXX.onmicrosoft.com`でサインインします。(パスワードの更新が求められた場合は、「Pa55w.rd1234」に設定してください)
+2. [https://www.office.com](https://www.office.com) に`DebraB@XXXXXXXXXXX.onmicrosoft.com`でサインインします。（初期パスワードは Skillable より取得した User Password です。）
 
 3. 正常にサインインできたことを確認します。
 
