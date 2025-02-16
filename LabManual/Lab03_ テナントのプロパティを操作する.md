@@ -25,9 +25,7 @@ lab:
 | 名前 | Contosoマーケティング |
 | 技術部連絡先 | `admin@XXXXXXXXXXX.onmicrosoft.com` |
 
-5. 画面左上に表示されていた「Contoso」から「Contosoマーケティング」に変わったことを確認してください。
 
-      
 
 ### タスク 2 - グローバル プライバシー連絡先、プライバシーに関する声明の URL など、Azure AD にプライバシー情報を追加する
 
