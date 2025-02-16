@@ -52,7 +52,7 @@ lab:
 ### タスク 3 - Alex Wilber 自身が電話番号を登録する
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
-2. [[Azure Portal]( https://portal.azure.com) ](https://aka.ms/ssprsetup)に`AlexW@XXXXXXXXXXX.onmicrosoft.com` でサインインします。（初期パスワードは初日朝にSkillableから取得した User Password です)
+2. [[Azure Portal]( https://portal.azure.com)]に`AlexW@XXXXXXXXXXX.onmicrosoft.com` でサインインします。（初期パスワードは初日朝にSkillableから取得した User Password です)
 4. 「詳細情報が必要」画面が表示されます。「次へ」を選択してください。
 5. 「アカウントのセキュリティ保護」画面が表示されます。「別の方法を設定します」をクリックした後、「電話」を選択し、確認をクリックします。その後ご自身の電話番号を設定し、「次へ」をクリックします。
 6. SMSに届いたコードを入力します。
