@@ -5,7 +5,7 @@ lab:
   module: Module 02 - Implement an authentication and access management solution
 ---
 
-# ラボ 11 - Privileged Identity Management で Azure リソース ロールを割り当てる
+# ラボ 111 - Privileged Identity Management で Azure リソース ロールを割り当てる
 
 ### ログインの種類 = Azure リソース ログイン
 

@@ -5,7 +5,7 @@ lab:
   module: Module 02 - Implement an Authentication and Access Management Solution
 ---
 
-# ラボ 16 - マネージド ID に Azure Key Vault を使用する
+# ラボ 116 - マネージド ID に Azure Key Vault を使用する
 
 ### ログインの種類 = Azure リソース ログイン
 

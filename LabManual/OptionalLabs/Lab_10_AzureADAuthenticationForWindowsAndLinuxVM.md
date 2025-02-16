@@ -5,7 +5,7 @@ lab:
   module: Module 02 - Implement an Authentication and Access Management Solution
 ---
 
-# ラボ 10 - Windows および Linux Virtual Machines に対する Microsoft Entra 認証
+# ラボ 110 - Windows および Linux Virtual Machines に対する Microsoft Entra 認証
 
 ### ログインの種類 = Azure リソース ログイン
 
@@ -113,7 +113,7 @@ lab:
         enablecredsspsupport:i:0
         authentication level:i:2
      ```
- 
+
  1. RDP ファイルを**保存**します。  これで、次の 2 つのバージョンのファイルが表示されるはずです。
       - <<virtual machine name>>.RDP
       - <<virtual machine name>>-EntraID.RDP
