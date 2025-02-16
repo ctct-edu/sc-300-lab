@@ -5,7 +5,7 @@ lab:
   module: Module 02 - Implement an Authentication and Access Management Solution
 ---
 
-# ラボ 110 - Windows および Linux Virtual Machines に対する Microsoft Entra 認証
+# ラボ 110 - Microsoft Entra Authentication for Windows and Linux Virtual Machines（Windows および Linux Virtual Machines に対する Microsoft Entra 認証）
 
 ### ログインの種類 = Azure リソース ログイン
 
