@@ -65,7 +65,7 @@ lab:
 1. [Connect]をクリックします。
 1. 仮想マシンの作成時に設定した管理者 (vmEntraAdmin) ユーザー名とパスワcドを使用して接続します。
    - メッセージが表示されたら、[Yes] と答え、仮想マシンまたは RDP セッションへのアクセスを許可します。
-1. 「Choose privacy settings for your device」は **[Next]** を4回ほど選択後、 **[Accept]** を選択して終了します。
+1. 「Choose privacy settings for your device」は **[Next]** を3回ほど選択後、 **[Accept]** を選択して終了します。
 1. 仮想マシンで **[スタート] ボタン(Windows アイコン)** を選択します。
 1. 「**Control Panel**」と入力し、コントロール パネル アプリを起動します。
 1. 設定のリストから **[System and Security]** を選択します。
