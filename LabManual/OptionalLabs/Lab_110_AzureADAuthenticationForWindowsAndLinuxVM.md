@@ -29,26 +29,22 @@ lab:
 
 1. **[基本]** タブで次の値を使用して VM を作成します。
 
-  | フィールド | 使用する値 |
-  | :-- | :-- |
-  | サブスクリプション | 既定値をそのまま使用します |
-  | リソース グループ | 新規作成 - rgEntraLogin |
-  | 仮想マシン名 | vmEntraLogin |
-  | リージョン | *default* |
-  | 可用性のオプション | インフラストラクチャ冗長は必要ありません |
-  | 証券の種類 | Standard |
-  | サイズ | Standard DC1s_v3 - 1 vCPU、8 GiB メモリ |
-  | 管理ユーザー名 | vmEntraAdmin |
-  | 管理者パスワード | ラボ環境から提供されるパスワードを使用するか、覚えておくことができる安全なパスワードを作成します |
-  | ライセンス | ライセンスがあることを確認する |
+| フィールド | 使用する値 |
+| :-- | :-- |
+| サブスクリプション | 既定値をそのまま使用します |
+| リソース グループ | 「rgEL」を選択 |
+| 仮想マシン名 | elvmXXXXXXXX |
+| リージョン | East US                                                      |
+| 可用性のオプション | インフラストラクチャ冗長は必要ありません |
+| セキュリティの種類 | Standard |
+| サイズ | Standard DC1s_v3 - 1 vCPU、8 GiB メモリ　（「すべてのサイズを表示」をクリックして、「VMサイズの選択」ウィンドウに移動。検索欄に「DC1s_v3」と入力して検索し、見つけたものをクリックして「選択」。） |
+| 管理ユーザー名 | vmEntraAdmin |
+| 管理者パスワード | Pa55w.rdXXXXXXXX |
+| ライセンス | 「マルチテナントをホストする権利を持つ有効な Windows 10/11 ライセンスを所有しています。」のチェックをオンにします。 |
 
 1. **[ディスク]** または **[ネットワーク]** タブでは何も変更する必要はなく、値を確認できます。
 
 1. **[管理]** タブで、[Microsoft Entra ID] セクションの **[Microsoft Entra ID でログイン]** のボックスをオンにします。
-
-        NOTE: You will notice that the **System assigned managed identity** under the Identity section is automatically checked and turned grey. This action should happen automatically once you enable Login with Microsoft Entra ID.
-
-1. 仮想マシンの作成エクスペリエンスの残りの部分に移動します。 
 
 1. **[確認および作成]**、**[作成]** の順に選択します。
 
