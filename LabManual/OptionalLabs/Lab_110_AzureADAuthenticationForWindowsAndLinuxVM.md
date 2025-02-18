@@ -5,13 +5,11 @@ lab:
   module: Module 02 - Implement an Authentication and Access Management Solution
 ---
 
-# ラボ 110 - Microsoft Entra Authentication for Windows and Linux Virtual Machines（Windows および Linux Virtual Machines に対する Microsoft Entra 認証）
-
-### ログインの種類 = Azure リソース ログイン
+# ラボ 110 - Microsoft Entra Authentication for Windows and Linux Virtual Machines
 
 ## ラボのシナリオ
 
-会社は、リモート アクセス用の仮想マシンへのログインに Microsoft Entra ID を使用することを決定しました。  このラボでは、Windows および Linux 仮想マシンに対してこれをセットアップする方法について示します。
+会社は、リモート アクセス用の仮想マシンへのログインに Microsoft Entra ID を使用することを決定しました。  このラボでは、Windows 仮想マシンに対してこれをセットアップする方法について示します。
 
 #### 予想所要時間: 20 分
 
