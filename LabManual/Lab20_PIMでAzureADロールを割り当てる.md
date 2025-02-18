@@ -16,8 +16,6 @@ lab:
 
 1. 「Identity  Governance」ブレードの「Azure AD ロール」 をクリックします。
 
-1. 「Privileged Identity Management | クイック スタート」ブレードの「AzureADロール」をクリックします。
-
 1. 「Contosoマーケティング | クイック スタート」ブレード左側のナビゲーションツリーより 「ロール」 をクリックします。
 
 1. 上部のメニューで 「+ 割り当ての追加」 をクリックします。
