@@ -135,30 +135,29 @@ Azure リソース用マネージド ID を使うとき、Microsoft Entra 認証
 
 1. 「**PowerShell**」と入力し、Windows PowerShell を起動します。
 
-    
+1. リモートデスクトップ接続のウィンドウを最大化ではなく、少し小さいサイズにします。ラボ環境のWindowsの方で notepad のコマンドを実行するなどしてメモ帳を立ち上げます。この後PowerShellに直接コードをペーストできないため、 「手順のコード→稲妻ボタンでメモ帳にペースト→ メモ帳からコピーし、右クリックでPowerShellにペースト」の順に実施していきます。
 
-1. PowerShell では、テナント上で Web 要求を呼び出し、VM の特定のポートでローカル ホストのトークンを取得します。  そのため以下のコマンドレットを実行します。
+1. テナント上で Web 要求を呼び出し、VM の特定のポートでローカル ホストのトークンを取得します。  そのため以下のPowerShellコマンドを実行します。
 
     ```
     $Response = Invoke-RestMethod -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fvault.azure.net' -Method GET -Headers @{Metadata="true"}
     ```
 
-1. 以下のコマンドレットを実行し、アクセス トークンを応答から抽出します。  
+1. 以下のコマンドを実行し、アクセス トークンを応答から抽出します。  
 
-    ```
-    $KeyVaultToken = $Response.access_token
-    ```
+     ```
+     $KeyVaultToken = $Response.access_token
+     ```
 
-1. 下記の Invoke-WebRequest コマンドを使用して、Key Vault で以前に作成したシークレットを取得し、Authorization ヘッダーにアクセス トークンを渡します。  Key Vault の [概要] ページの [要点] セクションにある Key Vault の URL が必要です。  リマインダー - Key Vault の URI は、[概要] タブにあります。
+1. 下記の Invoke-WebRequest コマンドを使用して、Key Vault で以前に作成したシークレットを取得し、Authorization ヘッダーにアクセス トークンを渡します。
 
-  - キー コンテナー URI -- Azure portal のキー コンテナーの [概要] ページから取得
-  - シークレット名 -- オブジェクトから取得 - キー コンテナーの [シークレット] ページ
+     (以下の通り、メモ帳でコマンドを修正する必要があります)
+
+  - <your-key-vault-URI> -- Azure portal のキー コンテナーの [概要] ページの [要点] セクションから取得
+  - <secret-name> --  キー コンテナーの [シークレット] ページから取得
 
     ```
     Invoke-RestMethod -Uri https://<your-key-vault-URI>/secrets/<secret-name>?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}
     ```
-1. 次のような応答を受け取ります。 
-    ```
-    'My Secret' https://mi-lab-vault.vault.azure.net/secrets/mi-test/50644e90b13249b584c44b9f712f2e51 @{enabled=True; created=16…
-    ```
-1. このシークレットは、名前とパスワードを必要とするサービスに対する認証に使用できます。
+
+　コマンド応答に表示される「value」の値が、自分で設定したシークレットの値であることを確認してください。 
