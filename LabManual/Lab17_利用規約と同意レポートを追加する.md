@@ -63,7 +63,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`AdeleV@ctcXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`AdeleV@ctcXXXX.onmicrosoft.com`でサインインします。(初期パスワードはSkillableから取得した「User Password」です。)
 
 3. 「詳細情報が必要」の画面が表示された場合は「次へ」をクリックします。
 
