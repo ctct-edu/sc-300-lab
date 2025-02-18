@@ -5,9 +5,7 @@ lab:
   module: Module 02 - Implement an Authentication and Access Management Solution
 ---
 
-# ラボ 116 - Using Azure Key Vault for Managed Identities（マネージド ID に Azure Key Vault を使用する）
-
-### ログインの種類 = Azure リソース ログイン
+# ラボ 116 - Using Azure Key Vault for Managed Identities
 
 ## ラボのシナリオ
 
@@ -19,32 +17,34 @@ Azure リソース用マネージド ID を使うとき、Microsoft Entra 認証
 
 #### タスク 1 - キー コンテナーを作成する
 
-1. グローバル管理者アカウントを使用して、[https://portal.azure.com]( https://portal.azure.com) にサインインします。
+1. [https://portal.azure.com]( https://portal.azure.com) にサインインします。
 
 1. 左側のナビゲーション バーの上部で、**[+ リソースの作成]** を選択します。
 
 1. [Marketplace を検索] ボックスに「**Key Vault**」と入力します。  
 
-1. 結果から **[キーコンテナー(Key Vault)]** を選択します。
+1. 結果から **[Key Vault]** を選択します。
 
 1. **［作成］** を選択します
 
 1. 次に示すように、必要なすべての情報を入力します。 このラボで使用しているサブスクリプションを選択していることを確認してください。
     **注** キー コンテナー名は一意である必要があります。 フィールドの右側にある緑色のチェックマークを探します。
 
- - **リソース グループ** - rgSC300KeyVault
- - **キー コンテナー名** - kvXXXXXXXX
- - **[アクセスの構成]** ページで、 **[Vault Access Policy] (コンテナーのアクセス ポリシー)** ラジオ ボタンをオンにします。
-1. **［確認および作成］** を選択します。
+ - **リソース グループ** - **rgSC300KeyVault**  を選択
 
-1. **［作成］** を選択します
+ - **キー コンテナー名** - **kvXXXXXXXX**
+
+     **[アクセス構成]** ページで、 **コンテナーのアクセス ポリシー** を選択します。
+
+   **［確認および作成］** を選択します。
+
+   **［作成］** を選択します。
 
 #### タスク 2 - Windows 仮想マシンを作成する
 
+1. **[Microsoft Azure]** のロゴをクリックし、ホームページに戻ります。
 1. **[+ リソースの作成]** を選択します。
-
 1. [サービスとマーケットプレースを検索してください] 検索バーに「**Windows 11**」と入力します。
-
 1. **[Windows 11]** を選択し、プランのドロップダウンから **[Windows 11 Enterprise、version 22H2]** を選択します。 次に、 **[作成]** を選択します。
 
 | フィールド | 値 |
@@ -60,18 +60,16 @@ Azure リソース用マネージド ID を使うとき、Microsoft Entra 認証
 | ライセンス | 「マルチテナントをホストする権利を持つ有効な Windows 10/11 ライセンスを所有しています。」のチェックをオンにします。 |
 
 1. **[次へ]** ボタンを使用して、**[管理]** タブに移動します。
-
 1. **[管理]** タブで、**[システム割り当てマネージド ID の有効化]** の横のボックスをオンにします。
-
-1. 仮想マシンの作成エクスペリエンスの残りの部分に移動します。 
-
 1. **[確認および作成]**、**[作成]** の順に選択します。5分程度待ってから進めてください。
-
-   
 
 #### タスク 3 - シークレットを作成する
 
-1. 新しく作成した Key Vault に移動します。
+1. 
+
+1. 「リソース、サービス、ドキュメントの検索」にて **Key Vault**  で検索してみつかる **キーコンテナー** をクリックし、移動します。
+
+1. 作成したキーコンテナー(kvXXXXXXXX)の名前をクリックします。
 
 1. 左側のメニューで **[オブジェクト]** を開き、**[シークレット]** を選択します。
 
@@ -121,23 +119,37 @@ Azure リソース用マネージド ID を使うとき、Microsoft Entra 認証
 
 #### タスク 5 - PowerShell を使用して Key Vault シークレットを使用してデータにアクセスする
 
-1. **vmKeyVault** に移動し、RDP を使用して **vmAdmin** として仮想マシンに接続します。
+1. **[Microsoft Azure]** のロゴをクリックし、ホームページに戻ります。
 
-1. ラボの仮想マシンから PowerShell (Power)を開きます。  
+1. **[仮想マシン]** を選択します。
 
-1. PowerShell では、テナント上で Web 要求を呼び出し、VM の特定のポートでローカル ホストのトークンを取得します。  
+1. **[vmKeyVault ]** の名前を選択します。
+
+1. 上の方の **[接続]** - **[接続]** を選択します。
+
+1. **[RDPファイルのダウンロード]** をクリックします。ブラウザーに表示される **[open file]** をクリックしてリモートデスクトップ接続を実施します。ユーザー名は  **vmAdmin** 、パスワードは **Pa55w.rdXXXXXXXX** を入力します。
+
+1. 「Choose privacy settings for your device」画面で  **[Next]** を4回ほど選択後、 **[Accept]** を選択して終了します。
+
+1. 仮想マシンで **[スタート] ボタン(Windows アイコン)** を選択します。
+
+1. 「**PowerShell**」と入力し、Windows PowerShell を起動します。
+
+    
+
+1. PowerShell では、テナント上で Web 要求を呼び出し、VM の特定のポートでローカル ホストのトークンを取得します。  そのため以下のコマンドレットを実行します。
 
     ```
     $Response = Invoke-RestMethod -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fvault.azure.net' -Method GET -Headers @{Metadata="true"}
     ```
 
-1. 次に、アクセス トークンを応答から抽出します。  
+1. 以下のコマンドレットを実行し、アクセス トークンを応答から抽出します。  
 
     ```
     $KeyVaultToken = $Response.access_token
     ```
 
-1. PowerShell の Invoke-WebRequest コマンドを使用して、Key Vault で以前に作成したシークレットを取得し、Authorization ヘッダーにアクセス トークンを渡します。  Key Vault の [概要] ページの [要点] セクションにある Key Vault の URL が必要です。  リマインダー - Key Vault の URI は、[概要] タブにあります。
+1. 下記の Invoke-WebRequest コマンドを使用して、Key Vault で以前に作成したシークレットを取得し、Authorization ヘッダーにアクセス トークンを渡します。  Key Vault の [概要] ページの [要点] セクションにある Key Vault の URL が必要です。  リマインダー - Key Vault の URI は、[概要] タブにあります。
 
   - キー コンテナー URI -- Azure portal のキー コンテナーの [概要] ページから取得
   - シークレット名 -- オブジェクトから取得 - キー コンテナーの [シークレット] ページ
