@@ -153,8 +153,8 @@ Azure リソース用マネージド ID を使うとき、Microsoft Entra 認証
 
      (以下の通り、メモ帳でコマンドを修正する必要があります)
 
-  - <your-key-vault-URI> -- Azure portal のキー コンテナーの [概要] ページの [要点] セクションから取得
-  - <secret-name> --  キー コンテナーの [シークレット] ページから取得
+  - your-key-vault-URI -- Azure portal のキー コンテナーの [概要] ページの [要点] セクションから取得
+  - secret-name --  キー コンテナーの [シークレット] ページから取得
 
     ```
     Invoke-RestMethod -Uri https://<your-key-vault-URI>/secrets/<secret-name>?api-version=2016-10-01 -Method GET -Headers @{Authorization="Bearer $KeyVaultToken"}
