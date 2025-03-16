@@ -62,7 +62,7 @@ lab:
 1.  **[Connect]** をクリックします。
 1. 仮想マシンの作成時に設定した管理者 (vmEntraAdmin) ユーザー名とパスワードを使用して接続します。
    - メッセージが表示されたら、[Yes] と答え、仮想マシンまたは RDP セッションへのアクセスを許可します。
-1. 「Choose privacy settings for your device」画面で  **[Next]** を4回ほど選択後、 **[Accept]** を選択して終了します。
+1. 「Choose privacy settings for your device」画面で  **[Next]** を数回選択後、 **[Accept]** を選択して終了します。
 1. 仮想マシンで **[スタート] ボタン(Windows アイコン)** を選択します。
 1. 「**Control Panel**」と入力し、コントロール パネル アプリを起動します。
 1. 設定のリストから **[System and Security]** を選択します。
@@ -97,10 +97,10 @@ lab:
 
 1. ログイン ダイアログで、次の情報を入力し、ログインします。
 
-   - ユーザー名 = **AzureAD\User2-XXXXXXXX@LODSPRODMCA.onmicrosoft.com**
+   - ユーザー名 = **AzureAD\User2-XXXXXXXX@LODSPRODMCA.onmicrosoft.com**　（XXXXXXXX はご自身の番号に置き換えてください）
    - パスワード = ラボ プロバイダーによって提供されるパスワードを入力します。
 
-   ※ 英語キーボードのため \  は「む」のキーで入力できます。
+   ※ User2-～とパスワードは、ラボの右側の 「Resources」タブに表示された文字をクリックすると、ラボ内に転記されます。
 
-   　User2-～とパスワードは、ラボ環境のResourcesに表示された文字をクリックすると、ラボ内に転記されます。
+   ※ 英語キーボードのため \  は「む」のキーで入力できます。
 
