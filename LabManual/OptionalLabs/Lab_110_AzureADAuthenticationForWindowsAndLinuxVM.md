@@ -11,7 +11,7 @@ lab:
 
 会社は、リモート アクセス用の仮想マシンへのログインに Microsoft Entra ID を使用することを決定しました。  このラボでは、Windows 仮想マシンに対してこれをセットアップする方法について示します。
 
-#### 予想所要時間: 20 分
+#### 予想所要時間: 25 分
 
 ### 演習 1 - Microsoft Entra ID を使用して Azure の Windows Virtual Machines にログインする
 
