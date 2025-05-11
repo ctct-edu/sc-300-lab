@@ -8,7 +8,7 @@ lab:
 
 #### 推定時間: 10 分
 
-### タスク 1 - ユーザー リスク ポリシーを有効にする
+### タスク 1 - ユーザー リスク ポリシーを設定する
 
 1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
@@ -33,7 +33,7 @@ lab:
 
     
 
-### タスク 2 - サインイン リスク ポリシーを有効にする
+### タスク 2 - サインイン リスク ポリシーを設定する
 
 1. 「Identity Protection | 概要」ブレードの左側のナビゲーションで、「サインイン リスク ポリシー」を選択します。
 
