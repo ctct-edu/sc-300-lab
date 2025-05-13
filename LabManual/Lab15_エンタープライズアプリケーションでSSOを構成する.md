@@ -66,7 +66,9 @@ lab:
 
    ![aad-sso-001](./media/aad-sso-001.BMP)
 
-2. 「ユーザー」画面で「ユーザー名」項目を`admin@XXXXXXXXXXX.onmicrosoft.com` (「メール」と同じ値)
+2. 「ユーザー」画面で「ユーザー名」項目を
+
+   `admin@XXXXXXXXXXX.onmicrosoft.com` (「メール」と同じ値)
 
    に変更し、「保存」をクリックします。
 
