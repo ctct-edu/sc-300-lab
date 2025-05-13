@@ -24,11 +24,9 @@ lab:
      | Last Name      | ctc                                                          |
      | Job Title      | Student                                                      |
      | Work email     | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
-     | Role           | Developer                                                    |
      | Company        | XXXXXXXXXXX                                                  |
      | Country/Region | Japan                                                        |
-     | Postal Code    | XXXXXXXXXXX.portal                                           |
-
+     
 3. 「Almost there! Check your email.」と表示されます。登録したメールアドレスに確認メールが送信されます。
 
 4. 届いたメールを確認します。[https://outlook.live.com/](https://outlook.live.com/)にアクセスし、サインインします。
