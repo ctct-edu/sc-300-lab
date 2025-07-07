@@ -8,28 +8,6 @@ lab:
 
 #### 推定時間: 15 分
 
-
-
-### 事前準備 - 多要素認証にSMSが使用できるよう構成する
-
-この後多要素認証を実施しますが、認証方法でSMSを有効にします。
-
-1. [https://portal.azure.com](https://portal.azure.com) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
-
-   > 注:XXXXはご自身のアカウント番号を入力してください。
-
-2. Azure Portalにサインイン後、上部の検索ダイアログより「Microsoft Entra ID」 を検索してクリックします。
-
-3. Microsoft Entra IDの画面が表示されます。左側のナビゲーション メニューの「管理」より「セキュリティ」 をクリックします。
-
-4. 「セキュリティ | はじめに」ブレードが表示されます。  左側のナビゲーション メニューの「管理」より「認証方法」 をクリックします。
-
-5. 「認証方法 | ポリシー」 ウィンドウで、 「SMS」 のリンクを選択します。
-
-6. 「有効にする」のスライドバーを選択して有効にした後、 「保存」を選択します。
-
-
-
 ### タスク 1 - 新しいユーザーを追加する
 
 1. Azure Portalにサインインしていることを確認の上、上部の検索ダイアログより「Microsoft Entra ID」 を検索してクリックします。
@@ -103,43 +81,53 @@ lab:
 
 4. 「サインインの状態を維持しますか?」と表示される場合があります。「いいえ」を選択してください。
 
-     > 注:誤って「はい」を選択しても、演習に影響はありません。
+     > 注:誤って「はい」を選択しても、演習に影響はありせん。
 
-5. 表示される「詳細情報が必要」ウィンドウで、**「次へ」** を選択します。
+5. 表示される「Portal MFA Enforcement」ウィンドウで、「Sign-in with MFA」 を選択します。
 
-6. Microsoft Authenticatorページでは、このモバイル アプリをダウンロードすることも、MFA 検証に別の方法を使用することもできます。
+    ![module04-19](.\media\module04-19-0.BMP)
 
-    画面の左下の方にある 「別の方法を設定します」 というハイパーリンク付きメッセージを選択します。
+6. 「アカウントをセキュリティで保護しましょう」画面が表示されます。「次へ」をクリックします。
 
-    ![](./media/MFA-SMS.png)
+    [![module04-19](.\media\module04-19.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19.BMP)
 
-7. 表示される[別の方法を選択します]ダイアログ ボックスで、「電話」を選択します。
+7. 「アカウントのセキュリティ保護」の「最初にアプリを取得します」画面で「次へ」をクリックします。
 
-8. 表示される[電話]ウィンドウで、ドロップダウンリストから「Japan(+81)」を選択し、その右のフィールドに現在使用可能な携帯電話の電話番号を入力します。「コードを受け取る」オプションが選択されていることを確認し、「次へ」　を選択します。
+    [![module04-19](.\media\module04-19-1.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-1.BMP)
 
-9. 携帯電話に送信されたテキスト メッセージから確認コードを取得します。
+8. 「アカウントのセキュリティ保護」の「アカウントのセットアップ」画面で「次へ」をクリックします。
 
-10. [電話]ウィンドウの[コードの入力] フィールドに 6 桁の確認コードを入力し、「次へ」 を選択します。
+    [![module04-19](.\media\module04-19-2.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-2.BMP)
 
-11. 確認が完了し、電話が正常に登録されたことを示すメッセージを受信したら、「次へ」 を選択します。
+9. 「アカウントのセキュリティ保護」の「QR コードをスキャンします」画面が表示されます。お手持ちのスマートフォンのMicrosoft Authenticatorアプリにて、「+」(画面右上にあります) - 「職場または学校のアカウント」 - 「QRコードをスキャン」と選択して、QRコードをスキャンします。 InPrivate ブラウザー ウィンドウに戻り「次へ」をクリックします。![module04-19](.\media\module04-19-3.BMP)
 
-12. 成功ページで、 「完了」 を選択します。
+10. 「サインイン要求を承認」画面で表示された番号を使用して、Authenticatorアプリの認証を実施します。
 
-13. 「Microsoft Azure へようこそ」ダイアログが表示された場合は、「キャンセル」ボタンをクリックします。
+    [![module04-19](.\media\module04-19-4.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-4.BMP)
 
-14. Azure Portalの検索ダイアログより「エンタープライズ アプリケーション」を検索してクリックします。
+11. 「通知が承認されました」と表示されます。「次へ」をクリックします。[![module04-19](.\media\module04-19-5.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-5.BMP)
 
-15. 「エンタープライズ アプリケーション」ブレードが表示されます。「+ 新しいアプリケーション」をクリックしてください。
+12. 「成功」と表示されます。「完了」をクリックします。
 
-16. 「Microsoft Entra ギャラリーを参照する」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS IAM Identity Center (successor to AWS Single Sign-On)」と入力します。
+[![module04-19](.\media\module04-19-6.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-6.BMP)
 
-17. 検索結果に「AWS IAM Identity Center (successor to AWS Single Sign-On)」が表示されます。クリックしてください。
+1. 「サインインの状態を維持しますか?」と表示される場合があります。「いいえ」を選択してください。
 
-18. 画面右側に「AWS IAM Identity Center (successor to AWS Single Sign-On)」と表示されますが、「作成」がクリックできないことを確認してください。
+1. 「Microsoft Azure へようこそ」ダイアログが表示された場合は、「キャンセル」ボタンをクリックします。
+
+2. Azure Portalの検索ダイアログより「エンタープライズ アプリケーション」を検索してクリックします。
+
+3. 「エンタープライズ アプリケーション」ブレードが表示されます。「+ 新しいアプリケーション」をクリックしてください。
+
+4. 「Microsoft Entra ギャラリーを参照する」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS IAM Identity Center (successor to AWS Single Sign-On)」と入力します。
+
+5. 検索結果に「AWS IAM Identity Center (successor to AWS Single Sign-On)」が表示されます。クリックしてください。
+
+6. 画面右側に「AWS IAM Identity Center (successor to AWS Single Sign-On)」と表示されますが、「作成」がクリックできないことを確認してください。
 
       > 注:これはアプリケーションを登録する権限がないため、作成することが出来ません。
 
-19. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
+7. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
 
        
 
@@ -159,7 +147,9 @@ lab:
 
 7. 「ロールの選択」ドロップダウンリストで「アプリケーション管理者」を選択します。
 
-8. 「追加」をクリックします。
+8. 「次へ」をクリックします。
+
+9. 「割り当て」をクリックします。
 
 10. 「Chris Green | 割り当てられたロール」ブレードの「アクティブな割り当て」タブに追加した「アプリケーション管理者」ロールが表示されたことを確認します。
 
