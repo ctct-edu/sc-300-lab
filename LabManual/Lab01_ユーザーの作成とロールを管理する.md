@@ -85,31 +85,31 @@ lab:
 
 5. 表示される「Portal MFA Enforcement」ウィンドウで、「Sign-in with MFA」 を選択します。
 
-    ![module04-19](.\media\module04-19-0.BMP)
+    ![module04-19](./media/module04-19-0.BMP)
 
 6. 「アカウントをセキュリティで保護しましょう」画面が表示されます。「次へ」をクリックします。
 
-    [![module04-19](.\media\module04-19.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19.BMP)
+    [![module04-19](./media/module04-19.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19.BMP)
 
 7. 「アカウントのセキュリティ保護」の「最初にアプリを取得します」画面で「次へ」をクリックします。
 
-    [![module04-19](.\media\module04-19-1.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-1.BMP)
+    [![module04-19](./media/module04-19-1.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-1.BMP)
 
 8. 「アカウントのセキュリティ保護」の「アカウントのセットアップ」画面で「次へ」をクリックします。
 
-    [![module04-19](.\media\module04-19-2.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-2.BMP)
+    [![module04-19](./media/module04-19-2.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-2.BMP)
 
 9. 「アカウントのセキュリティ保護」の「QR コードをスキャンします」画面が表示されます。お手持ちのスマートフォンのMicrosoft Authenticatorアプリにて、「+」(画面右上にあります) - 「職場または学校のアカウント」 - 「QRコードをスキャン」と選択して、QRコードをスキャンします。 InPrivate ブラウザー ウィンドウに戻り「次へ」をクリックします。![module04-19](.\media\module04-19-3.BMP)
 
 10. 「サインイン要求を承認」画面で表示された番号を使用して、Authenticatorアプリの認証を実施します。
 
-    [![module04-19](.\media\module04-19-4.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-4.BMP)
+    [![module04-19](./media/module04-19-4.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-4.BMP)
 
-11. 「通知が承認されました」と表示されます。「次へ」をクリックします。[![module04-19](.\media\module04-19-5.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-5.BMP)
+11. 「通知が承認されました」と表示されます。「次へ」をクリックします。[![module04-19](./media/module04-19-5.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-5.BMP)
 
 12. 「成功」と表示されます。「完了」をクリックします。
 
-[![module04-19](.\media\module04-19-6.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-6.BMP)
+[![module04-19](./media/module04-19-6.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-6.BMP)
 
 1. 「サインインの状態を維持しますか?」と表示される場合があります。「いいえ」を選択してください。
 
@@ -168,9 +168,7 @@ lab:
     | ユーザー名| `ChrisG@XXXXXXXXXXX.onmicrosoft.com` |
     | パスワード| Pa55w.rd1234 |
 
-    必要に応じ、携帯電話を使用したMFAでサインインしてください・
-
-    「よりすばやく安全にサインインするために、ご自分の組織から Microsoft Authenticator の使用を求められています。」のダイアログが表示された場合、「今はしない（残り〇回）」をクリックすれば、Microsoft Authenticatorの使用は当面不要です。
+    必要に応じ、携帯電話を使用したMFAでサインインしてください
 
 3. Azure Portalの検索ダイアログより「エンタープライズ アプリケーション」を検索してクリックします。
 
