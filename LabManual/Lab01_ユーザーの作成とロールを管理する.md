@@ -125,11 +125,11 @@ lab:
 
 19. 画面右側に「AWS IAM Identity Center (successor to AWS Single Sign-On)」と表示されますが、「作成」がクリックできないことを確認してください。
 
-> 注:これはアプリケーションを登録する権限がないため、作成することが出来ません。
+     注:これはアプリケーションを登録する権限がないため、作成することが出来ません。
 
-1. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
+20. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
 
-   ​    
+​    
 
 ### タスク 3 - ユーザーにロールを割り当てる
 
