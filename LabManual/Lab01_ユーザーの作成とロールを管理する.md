@@ -12,7 +12,7 @@ lab:
 
 1. Azure Portalにサインインしていることを確認の上、上部の検索ダイアログより「Microsoft Entra ID」 を検索してクリックします。
 
-2. Microsoft Entra IDの画面が表示されます。左側のナビゲーション メニューより「ユーザー」 をクリックします。
+2. Microsoft Entra IDの画面が表示されます。左側のナビゲーション メニューより「管理」  →「ユーザー」 をクリックします。
 
 3. 「+ 新しいユーザー」 →「新しいユーザーの作成」をクリックします。
 
@@ -109,25 +109,25 @@ lab:
 
 12. 「成功」と表示されます。「完了」をクリックします。
 
-[![module04-19](./media/module04-19-6.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-6.BMP)
+     ![module04-19](./media/module04-19-6.BMP)
 
-1. 「サインインの状態を維持しますか?」と表示される場合があります。「いいえ」を選択してください。
+13. 「サインインの状態を維持しますか?」と表示される場合があります。「いいえ」を選択してください。
 
-1. 「Microsoft Azure へようこそ」ダイアログが表示された場合は、「キャンセル」ボタンをクリックします。
+14. 「Microsoft Azure へようこそ」ダイアログが表示された場合は、「キャンセル」ボタンをクリックします
 
-2. Azure Portalの検索ダイアログより「エンタープライズ アプリケーション」を検索してクリックします。
+15. Azure Portal画面上の方の検索欄より「エンタープライズ アプリケーション」を検索してクリックします。
 
-3. 「エンタープライズ アプリケーション」ブレードが表示されます。「+ 新しいアプリケーション」をクリックしてください。
+16. 「エンタープライズ アプリケーション」ブレードが表示されます。「+ 新しいアプリケーション」をクリックしてください。
 
-4. 「Microsoft Entra ギャラリーを参照する」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS IAM Identity Center (successor to AWS Single Sign-On)」と入力します。
+17. 「Microsoft Entra ギャラリーを参照する」ブレードが表示されます。「アプリケーションを検索」ダイアログに「AWS IAM Identity Center (successor to AWS Single Sign-On)」と入力します。
 
-5. 検索結果に「AWS IAM Identity Center (successor to AWS Single Sign-On)」が表示されます。クリックしてください。
+18. 検索結果に「AWS IAM Identity Center (successor to AWS Single Sign-On)」が表示されます。クリックしてください。
 
-6. 画面右側に「AWS IAM Identity Center (successor to AWS Single Sign-On)」と表示されますが、「作成」がクリックできないことを確認してください。
+19. 画面右側に「AWS IAM Identity Center (successor to AWS Single Sign-On)」と表示されますが、「作成」がクリックできないことを確認してください。
 
-      > 注:これはアプリケーションを登録する権限がないため、作成することが出来ません。
+> 注:これはアプリケーションを登録する権限がないため、作成することが出来ません。
 
-7. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
+1. Azure Portalの右上隅にある `ChrisG@XXXXXXXXXXX.onmicrosoft.com` の名前をクリックして、サインアウトします。
 
    ​    
 
