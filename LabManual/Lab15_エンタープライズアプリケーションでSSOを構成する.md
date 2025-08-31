@@ -8,6 +8,8 @@ lab:
 
 #### 推定時間: 40 分
 
+**※ 本演習は、「InPrivate/シークレットウィンドウ」ではないブラウザーで実施してください。タスク2以降はクロスドメイン Cookie がブロックされないブラウザーが望ましいものとなります。**
+
 ### タスク 1 - Salesforceの利用を開始する
 
 このタスクではSalesforceの無償アカウントを作成します。
@@ -115,7 +117,10 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
      | メール、電話、またはskype | `admin@XXXXXXXXXXX.onmicrosoft.com` |
      | パスワード                | ラボで使用しているパスワードと同じ                        |
 
-     
+     > 英語表記となっていた場合、日本語表記に変更した方が進めやすくなります。 画面右上
+     > の歯車のマーク「Settings」をクリックした後、左の「Language + region」をクリック
+     > し、Language と Regional format でいずれも日本語を選択し、 [Apply] - [OK] をクリッ
+     > クします。
 
 3. 上部検索バーに「エンタープライズ アプリケーション」と入力し、該当サービスをクリックします。
 
@@ -199,7 +204,7 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
 
      ![aad-sso-035](./media/aad-sso-035.BMP)
 
-6. 「Salesforce.xml」が自身のPCにダウンロードされたことを確認します。
+6. 「Salesforce.xml」が演習を実施しているWindows環境にダウンロードされたことを確認します。
 
      ![aad-sso-036](./media/aad-sso-036.BMP)
 
@@ -298,11 +303,11 @@ Entra IDのユーザーでSalesforceにSSOする場合、ユーザーと役割�
 
 8. これで、SSOさせるユーザーの登録が完了しました。一度画面を最小化してください。
 
-   > 参考:この手順ではAzureADにあるadminユーザーとSalesforceのユーザーが一致していたため、
+   > 参考:この手順ではEntra IDにあるadminユーザーとSalesforceのユーザーが一致していたため、
    >
    > 　　 ユーザーとグループの追加でSSOを構成することができます。
    >
-   > 　　 別途ユーザーをSSOさせたい場合、AzureADユーザーとSalesforceの両方で
+   > 　　 別途ユーザーをSSOさせたい場合、Entra IDユーザーとSalesforceの両方で
    >
    > 　　 同一のサインインIDと役割(プロファイル)を構成しないとSSOは成功しません。
    >
@@ -312,13 +317,13 @@ Entra IDのユーザーでSalesforceにSSOする場合、ユーザーと役割�
 
 ### タスク 9 -SalesforceにSSOでサインインする
 
-1. Webブラウザで「`https://あなたがメモしたURL`」にアクセスします。
+1. InPrivateモードあるいはシークレットモードのWebブラウザで「`https://あなたがメモしたURL`」にアクセスします。
 
    > 例:`https://orgfarm-XXXXXXXXXX-dev-ed.develop.my.salesforce.com`
 
    > 注:タスク6-3で入力したURLです。
 
-2. サインイン画面の下部にある「次を使用してログイン EntraID」をクリックします。
+2. サインイン画面の下部にある「次を使用してログイン EntraID (英語表記の場合 Log in with EntraID)」をクリックします。
 
    ![aad-sso-052](./media/aad-sso-052.BMP)
 
