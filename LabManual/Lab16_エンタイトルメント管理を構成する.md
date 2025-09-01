@@ -12,7 +12,7 @@ lab:
 
 1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
+2. 左側のナビゲーション メニューの 「管理」を展開し「Identity Governance」 をクリックします。
 
 3. 「エンタイトルメント管理」を展開し「カタログ」 をクリックします。
 
@@ -40,7 +40,7 @@ lab:
 
 1. 「Identity Governance | カタログ」ブレードの一覧で 「Marketing」 をクリックします。
 
-2. 「Marketing」ブレード左側のナビゲーション メニューで、「リソース」 をクリックします。
+2. 「Marketing」ブレード左側のナビゲーション メニューで、「管理」を展開し「リソース」 をクリックします。
 
 3. 「Marketing | リソース」ブレードで、「+ リソースを追加します」 をクリックします。
 
