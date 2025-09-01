@@ -22,11 +22,11 @@ lab:
 
     > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
-    | 設定                                                 | 値   |
-    | :--------------------------------------------------- | ---- |
-    | Remove external user                                 | オン |
-    | Block external user from signing in to directory     | オフ |
-    | このディレクトリから外部ユーザーを削除するまでの日数 | 30   |
+    | 設定                                                        | 値   |
+    | :---------------------------------------------------------- | ---- |
+    | Remove external user                                        | オン |
+    | Block external user from signing in to directory            | オフ |
+    | Number of days before removing external user from directory | 30   |
 
 
 
