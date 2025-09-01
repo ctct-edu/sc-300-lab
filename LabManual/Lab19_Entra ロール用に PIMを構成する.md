@@ -16,7 +16,7 @@ lab:
 
 1. 「Privileged Identity Management」を展開し、「Azure AD ロール」 をクリックします。
 
-1. 「Contosoマーケティング | クイック スタート」ブレード左側のナビゲーションツリーより 「設定」 をクリックします。
+1. 「Contosoマーケティング | クイック スタート」ブレード左側のナビゲーションツリーにて 「管理」を展開し「設定」 をクリックします。
 
     ![「設定」メニューが強調表示された 「Azure AD ロール」ページを表示している画面イメージ](./media/lp3-mod3-pim-ad-roles-settings.png)
 
