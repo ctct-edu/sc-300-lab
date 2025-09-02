@@ -28,7 +28,6 @@ lab:
      | Work email     | `admin@XXXXXXXXXXX.onmicrosoft.com` (ラボ 準備で作成したユーザーを指定) |
      | Company        | XXXXXXXXXXX                                                  |
      | Country/Region | Japan                                                        |
-     | State/Province | 東京都 - Tokyo                                               |
      
 3. 「Almost there! Check your email.」と表示されます。登録したメールアドレスに確認メールが送信されます。
 
