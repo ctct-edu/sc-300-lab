@@ -55,7 +55,7 @@ lab:
 >
 > 　 (例えば、adminのパスワードを３回失敗すると180秒、演習を実施することが出来ません。)
 
-1. [Azure Active Directory]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
 
