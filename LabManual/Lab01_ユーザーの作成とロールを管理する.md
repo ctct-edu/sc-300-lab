@@ -34,7 +34,7 @@ lab:
 
     
 
-5. 確認と作成画面が表示されます。内容を確認し、「作成」をクリックします。
+5. レビューと作成画面が表示されます。内容を確認し、「作成」をクリックします。
 
 6. 作成後に「ユーザー」ブレードが表示されます。作成したユーザーがあることを確認してください。
 
@@ -83,31 +83,27 @@ lab:
 
      > 注:誤って「はい」を選択しても、演習に影響はありせん。
 
-5. 表示される「Portal MFA Enforcement」ウィンドウで、「Sign-in with MFA」 を選択します。
-
-    ![module04-19](./media/module04-19-0.BMP)
-
-6. 「アカウントをセキュリティで保護しましょう」画面が表示されます。「次へ」をクリックします。
+5. 「アカウントをセキュリティで保護しましょう」画面が表示されます。「次へ」をクリックします。
 
     [![module04-19](./media/module04-19.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19.BMP)
 
-7. 「アカウントのセキュリティ保護」の「最初にアプリを取得します」画面で「次へ」をクリックします。
+7. 「アカウントのセキュリティ保護(Keep your account secure)」の「最初にアプリを取得します(Start by getting the app)」画面で「次へ(Next)」をクリックします。
 
     [![module04-19](./media/module04-19-1.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-1.BMP)
 
-8. 「アカウントのセキュリティ保護」の「アカウントのセットアップ」画面で「次へ」をクリックします。
+8. 「アカウントのセキュリティ保護(Keep your account secure)」の「アカウントのセットアップ(Set up your account)」画面で「次へ(Next)」をクリックします。
 
     [![module04-19](./media/module04-19-2.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-2.BMP)
 
-9. 「アカウントのセキュリティ保護」の「QR コードをスキャンします」画面が表示されます。お手持ちのスマートフォンのMicrosoft Authenticatorアプリにて、「+」(画面右上にあります) - 「職場または学校のアカウント」 - 「QRコードをスキャン」と選択して、QRコードをスキャンします。 InPrivate ブラウザー ウィンドウに戻り「次へ」をクリックします。![module04-19](./media/module04-19-3.BMP)
+9. 「アカウントのセキュリティ保護(Keep your account secure)」の「QR コードをスキャンします」画面が表示されます。お手持ちのスマートフォンのMicrosoft Authenticatorアプリにて、「+」(画面右上にあります) - 「職場または学校のアカウント」 - 「QRコードをスキャン」と選択して、QRコードをスキャンします。 InPrivate ブラウザー ウィンドウに戻り「次へ(Next)」をクリックします。![module04-19](./media/module04-19-3.BMP)
 
-10. 「サインイン要求を承認」画面で表示された番号を使用して、Authenticatorアプリの認証を実施します。
+10. 「サインイン要求を承認(Let's try it out)」画面で表示された番号を使用して、Authenticatorアプリの認証を実施します。
 
     [![module04-19](./media/module04-19-4.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-4.BMP)
 
-11. 「通知が承認されました」と表示されます。「次へ」をクリックします。[![module04-19](./media/module04-19-5.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-5.BMP)
+11. 「通知が承認されました(Notification approved)」と表示されます。「次へ(Next)」をクリックします。[![module04-19](./media/module04-19-5.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19-5.BMP)
 
-12. 「成功」と表示されます。「完了」をクリックします。
+12. 「成功(Success!)」と表示されます。「完了(Done)」をクリックします。
 
      ![module04-19](./media/module04-19-6.BMP)
 
