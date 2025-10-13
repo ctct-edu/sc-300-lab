@@ -76,7 +76,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`DeliaD@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`DeliaD@XXXXXXXXXXX.onmicrosoft.com`でサインインします。（初期パスワードは初日朝にSkillableから取得した User Password です)
 
 3. 以下のような画面が出て、多要素認証が求められることを確認します。
 
@@ -120,7 +120,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [https://www.office.com](https://www.office.com) に`AdeleV@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. [https://www.office.com](https://www.office.com) に`AdeleV@XXXXXXXXXXX.onmicrosoft.com`でサインインします。（初期パスワードは初日朝にSkillableから取得した User Password です)
 
 3. 以下のような画面が出て、多要素認証が求められることを確認します。
 
