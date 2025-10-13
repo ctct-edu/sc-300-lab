@@ -43,7 +43,7 @@ lab:
    
    ![開始日、頻度、および期間を設定するための「期限切れの同意」設定](./media/lp4-mod1-new-terms-of-use-create.png)
    
-1. 利用規約が作成されると、「新規」ブレードに自動的に移動します。(「利用規約 "Contoso マーケティング利用規約" の作成で問題が発生しました」のメッセージ等で移動に失敗した場合、[Microsoft Entra ID](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) から、メニューの「セキュリティ」- 「条件付きアクセス」をクリックし、「＋新しいポリシーの作成」をクリックして、手動で移動してください。)
+1. 利用規約が作成されると、「新規」ブレードに自動的に移動します。
 
 1. 「新規」ブレードで、次の情報を設定し「作成」をクリックします。
 
