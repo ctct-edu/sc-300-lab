@@ -118,11 +118,8 @@ Azure ADをクラウドアプリケーションと連携する場合、エンタ
      | メール、電話、またはskype | `admin@XXXXXXXXXXX.onmicrosoft.com` |
      | パスワード                | ラボで使用しているパスワードと同じ                        |
 
-     > 英語表記となっていた場合、日本語表記に変更した方が進めやすくなります。 画面右上
-     > の歯車のマーク「Settings」をクリックした後、左の「Language + region」をクリック
-     > し、Language と Regional format でいずれも日本語を選択し、 [Apply] - [OK] をクリッ
-     > クします。
-
+     > 英語表記となっていた場合、日本語表記に変更します。 画面右上の歯車のマーク「Settings」をクリックした後、左の「Language + region」をクリックし、Language と Regional format でいずれも日本語を選択した後、 [Apply] - [OK] をクリックします。
+     
 3. 上部検索バーに「エンタープライズ アプリケーション」と入力し、該当サービスをクリックします。
 
      ![aad-sso-018](./media/aad-sso-018.BMP)
