@@ -4,7 +4,7 @@ lab:
     learning path: '04'
 ---
 
-# ラボ20：PIMでEntraロールを割り当てる
+# ラボ19：PIMでEntraロールを割り当てる
 
 #### 推定時間: 10 分
 
