@@ -40,7 +40,7 @@ lab:
 
 2. [Azure Portal](https://portal.azure.com) に`Adelev@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-   (初期パスワードはSkillableから取得した「User Password」です。必要に応じて、Microsoft Authenticator を使用してください。)
+   (初期パスワードはSkillableから取得した「User Password」です。)
 
 9. 「リソース、サービス、ドキュメントの検索」 バーから、Microsoft Entra ID を探し、ブレードを開きます。
 
