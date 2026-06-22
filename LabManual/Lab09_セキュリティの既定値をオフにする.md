@@ -12,11 +12,11 @@ lab:
 
 ### タスク 1 - セキュリティ既定値群を無効化する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-1. 「Contosoマーケティング | 概要」ブレードの左側のナビゲーションにある「プロパティ」 を選択します。
+1. 「Contoso | 概要」ブレードの「プロパティ」タブ を選択します。
 
-1. 「Contosoマーケティング | プロパティ」ブレードの下部にある 「セキュリティの既定値群の管理」 を選択します。
+1. 「Contoso | プロパティ」ブレードの下部にある 「セキュリティの既定値群の管理」 を選択します。
 
 1. 「セキュリティの既定値群の有効化」 トグルを 「無効」 に設定します。
 

@@ -9,7 +9,7 @@ lab:
 
 ### タスク 1 - SSPR を割り当てるグループを作成する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「グループ」を選択し「+ 新しいグループ」を選択します。
 
@@ -48,9 +48,9 @@ lab:
 ### タスク 3 - Alex Wilber 自身が多要素認証の設定をする
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
-2. [[Azure Portal]( https://portal.azure.com)]に`AlexW@XXXXXXXXXXX.onmicrosoft.com` でサインインします。（初期パスワードは初日朝にSkillableから取得した User Password です)
-4. Microsoft Authenticator による多要素認証を設定します。
-7. そのままサインインを継続し、Azure Portalが表示されたら、いったんブラウザーを閉じます。
+2. [Microsoft Entra ID](https://entra.microsoft.com/) に`AlexW@XXXXXXXXXXX.onmicrosoft.com` でサインインします。（初期パスワードは初日朝にSkillableから取得した User Password です)
+3. Microsoft Authenticator による多要素認証を設定します。
+4. そのままサインインを継続し、Microsoft Entra Portal が表示されたら、いったんブラウザーを閉じます。
 
 
 
@@ -58,7 +58,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-2. [Azure Portal]( https://portal.azure.com) に`AlexW@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. [Microsoft Entra ID](https://entra.microsoft.com/) に`AlexW@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 3. 「パスワードの入力」ページで、「パスワードを忘れた場合」 を選択します。
 
@@ -84,13 +84,13 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-   1. [Azure Portal]( https://portal.azure.com) に`GradyA@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. [Microsoft Entra ID](https://entra.microsoft.com/) に`GradyA@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 「パスワードの入力」ページで、「パスワードを忘れた場合」 を選択します。
+3. 「パスワードの入力」ページで、「パスワードを忘れた場合」 を選択します。
 
-3. 「アカウントの復元」ページで、要求された情報を入力し、「次へ」 を選択します。
+4. 「アカウントの復元」ページで、要求された情報を入力し、「次へ」 を選択します。
 
-4. 画面内に「申し訳ございません。ご使用のアカウントでパスワードのリセットが有効になっていないため、自分でパスワードをリセットすることはできません。」と表示されSSPRが実施できないことを確認します。
+5. 画面内に「申し訳ございません。ご使用のアカウントでパスワードのリセットが有効になっていないため、自分でパスワードをリセットすることはできません。」と表示されSSPRが実施できないことを確認します。
 
    
 

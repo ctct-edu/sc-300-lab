@@ -10,13 +10,13 @@ lab:
 
 ## タスク 1 - Identity Governance の設定で外部ユーザーのライフサイクルを管理する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
+1. 左側のナビゲーション メニューの 「IDガバナンス」セクションの「エンタイトルメント管理」をクリックします。
 
-1. 「エンタイトルメント管理」を展開し、「Control configurations」 を選択します。
+1. 「Control configurations」 を選択します。
 
-1. 「View settings」 をクリックします。
+1. 「Lifecycle of external users」の「View settings」 をクリックします。
 
 1. 「Lifecycle of external users」ウィンドウで、次の情報を使用し「Save」をクリックします。
 

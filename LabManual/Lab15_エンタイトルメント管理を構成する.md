@@ -10,27 +10,25 @@ lab:
 
 ### タスク 1 - カタログを作成する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 左側のナビゲーション メニューの 「管理」を展開し「Identity Governance」 をクリックします。
+2. 左側のナビゲーション メニューの 「IDガバナンス」を展開し「エンタイトルメント管理」 をクリックします。
 
-3. 「カタログ」を展開し「カタログ」 をクリックします。
+3. 「Identity Governance | カタログ」ブレードの 「+New catalog」 をクリックします。
 
-4. 「Identity Governance | カタログ」ブレードの 「+新しいカタログ」 をクリックします。
+   ![Lab15_1](./media/module15-1.BMP)
 
-   ![「新しいカタログ」メニューが強調表示された Identity Governance カタログ ページが表示されている画面イメージ](./media/lp4-mod1-identity-governance-new-catalog.png)
-
-5. 「新しいカタログ」ウィンドウで、次の情報を使用し「作成」をクリックします。
+4. 「新しいカタログ」ウィンドウで、次の情報を使用し「作成」をクリックします。
 
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
    | 設定                         | 値                         |
    | :--------------------------- | -------------------------- |
-   | 名前                         | Marketing                  |
-   | 説明                         | マーケティング部門ユーザー |
+   | 名前(Name)                   | Marketing                  |
+   | 説明(Description)            | マーケティング部門ユーザー |
    | Enabled for users to request | いいえ                     |
 
-6. 「Identity Governance | カタログ」ブレードの一覧に作成したカタログが表示されました。
+5. 「Identity Governance | カタログ」ブレードの一覧に作成したカタログが表示されました。
 
    
 
@@ -38,22 +36,22 @@ lab:
 
 1. 「Identity Governance | カタログ」ブレードの一覧で 「Marketing」 をクリックします。
 
-2. 「Marketing」ブレード左側のナビゲーション メニューで、「管理」を展開し「リソース」 をクリックします。
+2. 「Marketing」ブレード左側のナビゲーション メニューで、「管理(Manage)」の「リソース（Resources）」 をクリックします。
 
-3. 「Marketing | リソース」ブレードで、「+ リソースを追加します」 をクリックします。
+3. 「Marketing | リソース（Resources）」ブレードで、「+ リソースを追加します（Add resources）」 をクリックします。
 
-4. 「カタログへのリソースの追加」ブレードで、次の情報を使用し「追加」をクリックします。
+4. 「カタログへのリソースの追加（Add resources to catalog）」ブレードで、次の情報を使用し「追加（Add）」をクリックします。
 
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
 
-| リソースの種類   | 値                                                           |
-| :--------------- | :----------------------------------------------------------- |
-| グループとチーム | sg-SC300-O365<br />(上記グループがない場合は、sg- で始まる任意のグループを選択します) |
-| アプリケーション | LinkedIn                                                     |
-| アプリケーション | Box                                                          |
+| リソースの種類                       | 値                                                           |
+| :----------------------------------- | :----------------------------------------------------------- |
+| グループとチーム（Groups and Teams） | sg-SC300-O365<br />（上記グループがない場合は、sg- で始まる任意のグループを選択します） |
+| アプリケーション（Applications）     | LinkedIn                                                     |
+| アプリケーション（Applications）     | Box                                                          |
 
-![カタログにリソースを追加する](./media/catalog-add-resources.png)
+![Lab15_2](./media/module15-2.BMP)
 
 6. 「Marketing | リソース」ブレードにリダイレクトされます。追加したリソースが一覧に表示されたことを確認します。
 
@@ -61,15 +59,11 @@ lab:
 
 ### タスク 3 - カタログ所有者を追加する
 
-1. 一つ前のブレード「Identity Governance | カタログ」に移ります。
+1. 「管理(Manage)」の「ロールと管理者（Roles and administrators）」 をクリックします。
 
-2. 「Marketing」カタログをクリックし、「Marketing」ブレードに移ります。
+4. 上部のメニューで、利用可能なロールを確認し、「+ カタログ所有者の追加（Add catalog owner）」 をクリックします。
 
-3. 「Marketing」ブレードの左側のナビゲーション メニューで、「ロールと管理者」をクリックします。
-
-4. 上部のメニューで、利用可能なロールを確認し、「+ カタログ所有者の追加」 をクリックします。
-
-   ![Marketing カタログの「ロールと管理者」ページが表示されている画面イメージ](./media/lp4-mod1-catalog-roles-and-admins.png)
+   ![Lab15_3](./media/module15-3.BMP)
 
 5. 「メンバーの選択」ウィンドウで、「Adele Vance」 を選び、「選択」 をクリックします。
 
@@ -79,13 +73,13 @@ lab:
 
 ### タスク 4 - カタログを編集する
 
-1. 「Marketing」ブレードの左側のナビゲーションで、「概要」 をクリックします。
+1. 「Marketing」ブレードの左側のナビゲーションで、「概要（Overview）」 をクリックします。
 
-2. 上部のメニューで、「編集」 をクリックします。
+2. 上部のメニューで、「編集（Edit）」 をクリックします。
 
-3. 「有効」 で 「はい」 を選び、「保存」をクリックします。
+3. 「有効（Enabled）」 で 「はい」 を選び、「保存（Save）」をクリックします。
 
-   ![有効なプロパティが表示されている画面イメージ。](./media/lp4-mod1-edit-marketing-catalog.png)
+   ![Lab15_4](./media/module15-4.BMP)
 
 
 

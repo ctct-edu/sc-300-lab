@@ -14,15 +14,14 @@ lab:
 
    > 保存したPDF「ContosoTerm.pdf」は演習で使用します。
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
+1. 左側のナビゲーション メニューの 「IDガバナンス」セクションの「エンタイトルメント管理」 をクリックします。
 
-1. 「Identity  Governance」ブレードの「利用規約」 を展開し、「利用規約」をクリックします。
+1. 「Identity  Governance」ブレードの「利用規約」をクリックします。
+   ![Lab16_1](./media/module16-1.BMP)
 
 1. 「Identity Governance | 利用規約」ブレードの「+ 新しい条件」 をクリックします。
-
-   ![「新規の利用規約」が強調された「利用規約」ページが表示されている画面イメージ](./media/lp4-mod1-new-terms-of-use.png)
 
 1. 「新しい利用規約」ブレードで、次の情報を使用し「作成」をクリックします。
 
@@ -41,7 +40,7 @@ lab:
    | 同意の期限                                 | オフ                           |
    | 条件付きアクセス                           | カスタムポリシー               |
    
-   ![開始日、頻度、および期間を設定するための「期限切れの同意」設定](./media/lp4-mod1-new-terms-of-use-create.png)
+   <img src="./media/module16-2.BMP" alt="Lab16_2" style="zoom:80%;" />
    
 1. 利用規約が作成されると、「新規」ブレードに自動的に移動します。
 
@@ -49,13 +48,13 @@ lab:
 
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
-   | 設定                                    | 値                                                  |
-   | :-------------------------------------- | --------------------------------------------------- |
-   | 名前                                    | Contoso マーケティング利用規約ポリシー              |
-   | ユーザーまたはエージェント (プレビュー) | Adele Vance                                         |
-   | ターゲットリソース                      | すべてのリソース (以前の 'すべてのクラウド アプリ') |
-   | 許可                                    | ☑Contoso マーケティング利用規約                     |
-   | ポリシーの有効化                        | オン                                                |
+   | 設定                       | 値                                                           |
+   | :------------------------- | ------------------------------------------------------------ |
+   | 名前                       | Contoso マーケティング利用規約ポリシー                       |
+   | ユーザーまたはエージェント | 「ユーザーとグループの選択」から「ユーザーとグループ」で「Adele Vance」を選択 |
+   | ターゲットリソース         | すべてのリソース (以前の 'すべてのクラウド アプリ')          |
+   | 許可                       | ☑Contoso マーケティング利用規約                              |
+   | ポリシーの有効化           | オン                                                         |
 
    
 
@@ -75,12 +74,11 @@ lab:
 
 ### タスク3 - 同意したユーザーのレポートを表示する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-1. 左側のナビゲーション メニューの 「Identity Governance」 をクリックします。
+1. 左側のナビゲーション メニューの 「IDガバナンス」セクションの「エンタイトルメント管理」 をクリックします。
 
-1. 「Identity  Governance」ブレードの「利用規約」 をクリックします。
-
+1. 「Identity  Governance」ブレードの「利用規約」をクリックします。
 1. 「利用規約」で「監査ログの表示」をクリックします。
 
 1. 同意した日時やユーザーを確認することが出来ます。（表示されるまで時間がかかることがあります）

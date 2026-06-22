@@ -10,7 +10,7 @@ lab:
 
 ### タスク1 - Microsoft Entra ID からユーザーを削除する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 

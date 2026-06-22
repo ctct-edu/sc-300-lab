@@ -22,13 +22,11 @@ lab:
 
 ### タスク 2 - 条件付きアクセスポリシーを作成する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
+2. 左側のナビゲーション メニューの「条件付きアクセス」をクリックします。
 
-3. 「セキュリティ | はじめに」ブレードで「条件付きアクセス」をクリックします。
-
-4. 「条件付きアクセス | 概要」ブレードで「+新しいポリシーを作成する」をクリックします。
+4. 「条件付きアクセス | 概要」ブレードで「+新しいポリシーの作成」をクリックします。
 
 4. 名前を設定します。
 
@@ -81,9 +79,8 @@ lab:
 
 ### タスク 4 - 作成した条件付きアクセスポリシーをオフにする
 
-1. [Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
-2. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
-3. 「セキュリティ | はじめに」ブレードで「条件付きアクセス」をクリックします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+2. 左側のナビゲーション メニューの「条件付きアクセス」をクリックします。
 4. 「条件付きアクセス | 概要」ブレードで「ポリシー」をクリックします。「条件付きアクセス | ポリシー」ブレードで作成した「Block M365 for DebraB」をクリックします。
 5. 「ポリシーの有効化」 で 「オフ」 を選択し、「保存」 を選択します。
 

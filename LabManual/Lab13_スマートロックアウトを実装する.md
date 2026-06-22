@@ -11,15 +11,13 @@ lab:
 
 ### タスク 1 - Azure AD スマート ロックアウトの値を管理する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-1. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
+1. 左側のナビゲーション メニューの「認証方法」をクリックします。
 
-1. 左側のナビゲーション メニューの「管理」カテゴリを展開し「認証方法」 を選択します。
+1. 認証方法ブレードの「パスワード保護」 を選択します。
 
-1. 左側のナビゲーション メニューの「パスワード保護」 を選択します。
-
-    ![「認証方法」ブレードと、「パスワード認証」を参照するために選択されて強調表示された項目を表示している画面イメージ](./media/lp2-mod3-browse-to-password-protection.png)
+    ![Lab12_1](./media/module12-1.BMP)
 
 1. 「認証方法 | パスワード保護」ブレードで、次の情報を使用し「保存」をクリックします。
 
@@ -36,7 +34,7 @@ lab:
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-1. [Azure Portal]( https://portal.azure.com/) に`GradyA@XXXXXXXXXXX.onmicrosoft.com`でサインイン時に3回以上パスワード認証を失敗します。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`GradyA@XXXXXXXXXXX.onmicrosoft.com`でサインイン時に3回以上パスワード認証を失敗します。
 
 1. 認証画面にて、以下のメッセージが表示されます。
 
@@ -53,13 +51,11 @@ lab:
 >
 > 　 (例えば、adminのパスワードを３回失敗すると180秒、演習を実施することが出来ません。)
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-1. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
+1. 左側のナビゲーション メニューの「認証方法」をクリックします。
 
-1. 左側のナビゲーション メニューの「管理」カテゴリを展開し「認証方法」 を選択します。
-
-1. 左側のナビゲーション メニューの「パスワード保護」 を選択します。
+1. 認証方法ブレードの「パスワード保護」 を選択します。
 
 1. 「認証方法 | パスワード保護」ブレードで、次の情報を使用し「保存」をクリックします。
 

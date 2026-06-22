@@ -10,7 +10,7 @@ lab:
 
 ### タスク1 - ゲスト ユーザーをディレクトリに追加する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 1. 左側のナビゲーション メニューの「ユーザー」 を選択します。
 
@@ -33,7 +33,7 @@ lab:
 
     
 
-1. 「確認と招待」タブで内容を確認し、「招待」をクリックします。
+1. 「確認と招待」で内容を確認し、「招待」をクリックします。
 
 1. 「ユーザー」ブレードで、アカウントが一覧表示されていることを確認し、**「ユーザーの種類」** 列に **「ゲスト」** が表示されていることを確認します。
 

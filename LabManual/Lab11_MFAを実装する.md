@@ -1,11 +1,11 @@
 ---
 lab:
-    title: '12 - AzureMFAを実装する'
+    title: '12 - MFAを実装する'
     learning path: '02'
-    module: 'モジュール 01 - Azure Multi-Factor Authentication の計画と管理を行う'
+    module: 'モジュール 01 - Multi-Factor Authentication の計画と管理を行う'
 ---
 
-# ラボ11：AzureMFAを実装する
+# ラボ11：MFAを実装する
 
 #### 推定時間: 20 分
 
@@ -23,17 +23,15 @@ lab:
 
 ### タスク 1 - Delia Dennis の MFA の条件付きアクセス ルールを設定する
 
-1. [https://portal.azure.com](https://portal.azure.com) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
-2. 左側のナビゲーション メニューの「セキュリティ」をクリックします。
-
-3. 「セキュリティ | はじめに」ブレードで「保護」カテゴリの「条件付きアクセス」をクリックします。
+2. 左側のナビゲーション メニューの「条件付きアクセス」をクリックします。
 
 4. 「セキュリティ | 概要」ブレードで「ポリシー」をクリックします。
 
-5. 「条件付きアクセス | ポリシー」ブレードで「新しいポリシー」をクリックし、「新しいポリシーを作成する」をクリックします。
+5. 「条件付きアクセス | ポリシー」ブレードで「新しいポリシー」をクリックします。
 
-    ![Azure portal で「新しいポリシー」ボタンが強調表示されている画面のスクリーンショット](./media/lp2-mod1-azure-ad-conditional-access-policy.png)
+    ![Lab11_1](./media/module11-1.BMP)
 
 6. 名前を設定します。
 
@@ -90,23 +88,21 @@ lab:
 
 ### タスク 1 - Entra ID のユーザーごとの MFA を構成する
 
-1. [Microsoft Entra ID]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
+1. [Microsoft Entra ID](https://entra.microsoft.com/) に`Admin@XXXXXXXXXXX.onmicrosoft.com`でサインインします。
 
 2. 左側のナビゲーション メニューの「ユーザー」を選択し、さらに「ユーザーごとのMFA」を選択します。
 
-    ![MFA オプションを示すスクリーンショット](./media/lp2-mod1-users-mfa.png)
+    ![Lab11_3](./media/module11-3.BMP)
 
     
 
 3. 「ユーザーごとの多要素認証」画面が表示されます。一覧から「Adele Vance」にチェックを入れ、「MFAを有効にする」をクリックします。
 
-    ![MFA オプションを示すスクリーンショット](./media/lp2-mod1-mfa-settings1.png)
+    ![Lab11_4](./media/module11-4.BMP)
 
 4. 確認のポップアップが表示されたら「有効にする」ボタンをクリックします。
 
-5. 「更新が正常に完了しました」と表示されたら「閉じる」 を選択します。
-
-6. 「Adele」 の 状態が「Enabled」になっていることを確認してください。
+6. 「disabled」 の 状態が「enabled」になっていることを確認してください。
 
     > 注:Delia Dennisは、条件付きアクセスポリシーで設定しているため、ここでは「無効」と表示されます。
     >
