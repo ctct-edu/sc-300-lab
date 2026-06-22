@@ -45,7 +45,7 @@ lab:
 9. 「左側のナビゲーション メニューの 「IDガバナンス」セクションの「Privileged Identity Management」 をクリックします。
 
 4. 「Privileged Identity Management」のブレードで「自分のロール」をクリックします。
-   ![Lab19_2](./media/LAB19-2.png)
+   ![Lab19_2](./media/Lab19-2.png)
 
 11. 「自分のロール | 割り当てられたロール」 ブレードで「資格のある割り当て」が表示され、登録したロールが表示されます。
 
