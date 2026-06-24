@@ -197,9 +197,7 @@ lab:
 
 3. 先ほど作成したユーザー、「Chris Green」をクリックします。
 
-4. AWS IAM Identity Center (successor to AWS Single Sign-On)画面内の「ロールと管理者 」を開きます。
-
-5. ブレードの「アクティブな割り当て」タブで「Chris Green 」の名前が表示されます。
+4. 「割り当てられたロール」を開きます。
 
 6. 画面の右の方にある「削除」リンクをクリックします。
 
