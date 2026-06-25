@@ -14,11 +14,11 @@ lab:
 
 2. 左側のナビゲーション メニューの 「IDガバナンス」を展開し「エンタイトルメント管理」 をクリックします。
 
-3. 「Identity Governance | カタログ」ブレードの 「+New catalog」 をクリックします。
+3. 「カタログ」-「+New catalog」 とクリックします。
 
    ![Lab15_1](./media/module15-1.BMP)
 
-4. 「新しいカタログ」ウィンドウで、次の情報を使用し「作成」をクリックします。
+4. 「新しいカタログ」ウィンドウで、次の情報を使用し「作成(Create)」をクリックします。
 
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
@@ -26,7 +26,7 @@ lab:
    | :--------------------------- | -------------------------- |
    | 名前(Name)                   | Marketing                  |
    | 説明(Description)            | マーケティング部門ユーザー |
-   | Enabled for users to request | いいえ                     |
+   | Enabled for users to request | No                         |
 
 5. 「Identity Governance | カタログ」ブレードの一覧に作成したカタログが表示されました。
 
@@ -36,7 +36,7 @@ lab:
 
 1. 「Identity Governance | カタログ」ブレードの一覧で 「Marketing」 をクリックします。
 
-2. 「Marketing」ブレード左側のナビゲーション メニューで、「管理(Manage)」の「リソース（Resources）」 をクリックします。
+2. 「Marketing」ブレード左側のナビゲーション メニューで、「リソース（Resources）」 をクリックします。
 
 3. 「Marketing | リソース（Resources）」ブレードで、「+ リソースを追加します（Add resources）」 をクリックします。
 
@@ -59,9 +59,7 @@ lab:
 
 ### タスク 3 - カタログ所有者を追加する
 
-1. 「管理(Manage)」の「ロールと管理者（Roles and administrators）」 をクリックします。
-
-4. 上部のメニューで、利用可能なロールを確認し、「+ カタログ所有者の追加（Add catalog owner）」 をクリックします。
+1. 「ロールと管理者（Roles and administrators）」 - 「+ カタログ所有者の追加（Add catalog owner）」 とクリックします。
 
    ![Lab15_3](./media/module15-3.BMP)
 
@@ -77,7 +75,7 @@ lab:
 
 2. 上部のメニューで、「編集（Edit）」 をクリックします。
 
-3. 「有効（Enabled）」 で 「はい」 を選び、「保存（Save）」をクリックします。
+3. 「有効（Enabled）」 で 「はい(Yes)」 を選び、「保存（Save）」をクリックします。
 
    ![Lab15_4](./media/module15-4.BMP)
 
